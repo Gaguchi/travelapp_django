@@ -27,7 +27,7 @@ def tour_list(request):
         'tours': tours,
         'bookings': bookings
     }
-    return render(request, 'tour_list.html', context)
+    return render(request, 'home.html', context)
 
 @login_required
 def book_tour(request, tour_id):
