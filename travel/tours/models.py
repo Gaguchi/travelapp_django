@@ -52,7 +52,7 @@ class Booking(models.Model):
     entertainment_choices = models.ManyToManyField(Entertainment, blank=True, through='BookingEntertainment')
 
     def __str__(self):
-        return f"Booking for {self.num_adults} adults and {self.num_children} children at {self.hotel.name} in {self.hotel.city.name} from {self.check_in} to {self.check_out}"
+        return f"{self.user}: Booking for {self.num_adults} adults and {self.num_children} children at {self.hotel.name} in {self.hotel.city.name} from {self.check_in} to {self.check_out}"
 
 
 class BookingRestaurant(models.Model):
@@ -79,6 +79,7 @@ class BookingEntertainment(models.Model):
 
     def __str__(self):
         return f"BookingEntertainment for {self.entertainment.name} on {self.date}"
+    
 
 
 class Tour(models.Model):
