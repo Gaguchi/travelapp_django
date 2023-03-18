@@ -3814,6 +3814,7 @@ p:last-child {
 }
 
 .header__inner {
+    background: linear-gradient(90deg,#1f313a,#29464b 53%,#3e6a71 98%);
     position: relative;
     z-index: 19;
     height: 70px;
@@ -10132,6 +10133,7 @@ article.hentry {
 
 @media (max-width:1023px) {
     .front-page-heading-inner {
+        background: linear-gradient(90deg,#1f313a,#29464b 53%,#3e6a71 98%);
         display: block;
         height: 100%;
         min-height: 550px;
