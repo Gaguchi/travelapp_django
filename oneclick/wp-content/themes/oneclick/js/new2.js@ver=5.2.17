@@ -1,7 +1,7 @@
 (function($) { "use strict";
             Royal_Preloader.config({
                 mode:           'text', // 'number', "text" or "logo"
-                text:           'One Click',
+                text:           'Simon Labs',
                 timeout:        0,
                 showInfo:       true,
                 opacity:        1,
