@@ -555,7 +555,7 @@ a:active {
     font-size: 16px;
     font-weight: 700;
     color: #fff;
-    background-color: #447d81;
+    background-color: #2a334e;
     position: relative;
     text-align: center;
     padding: 12px 40px;
@@ -569,7 +569,7 @@ a:active {
 .butn-style03:hover:before {
     top: auto;
     bottom: 0;
-    background-color: #fcaf17;
+    background-color: #36666a;
     height: 100%
 }
 
@@ -8194,4 +8194,47 @@ footer .phone a:focus {
   }
   .flip {
     transform: rotateY(180deg);
+  }
+
+.background-flip{
+    background-image: url(/img/content/bg-shape2.png),url(/img/content/bg-shape1.png);
+    background-position: right bottom, left top;
+    background-repeat: no-repeat;
+}
+
+@-webkit-keyframes rotating /* Safari and Chrome */ {
+    from {
+      -webkit-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    to {
+      -webkit-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+  @keyframes rotating {
+    from {
+      -ms-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      -webkit-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    to {
+      -ms-transform: rotate(360deg);
+      -moz-transform: rotate(360deg);
+      -webkit-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+  .rotating {
+    transform-origin: unset;
+    -webkit-animation: rotating 2s linear infinite;
+    -moz-animation: rotating 2s linear infinite;
+    -ms-animation: rotating 2s linear infinite;
+    -o-animation: rotating 2s linear infinite;
+    animation: rotating 2s linear infinite;
   }
