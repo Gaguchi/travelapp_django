@@ -8107,7 +8107,7 @@ footer .phone a:focus {
   .book {
     width: 331px;
     height: 441px;
-    background: url(/img/content/report.jpg) no-repeat center center;
+    background: url(../img/content/report.jpg) no-repeat center center;
     background-size: cover;
     position: absolute;
     top: 0;
@@ -8135,7 +8135,7 @@ footer .phone a:focus {
   .book-back {    
     width: 331px;
     height: 441px;
-    background: url(/img/content/report_back.jpg) no-repeat center center;
+    background: url(../img/content/report_back.jpg) no-repeat center center;
     box-shadow: 7px 13px 15px #00000059;
     background-size: cover;
     position: absolute;
@@ -8197,7 +8197,7 @@ footer .phone a:focus {
   }
 
 .background-flip{
-    background-image: url(/img/content/bg-shape2.png),url(/img/content/bg-shape1.png);
+    background-image: url(../img/content/bg-shape2.png),url(../img/content/bg-shape1.png);
     background-position: right bottom, left top;
     background-repeat: no-repeat;
 }
