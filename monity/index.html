@@ -86,18 +86,18 @@
                                     <ul class="navbar-nav align-items-lg-center ms-auto" id="nav"
                                         style="display: none;">
                                         <li>
-                                            <a href="index-03.html#!">Home</a>
+                                            <a href="#banner">Home</a>
                                         </li>
                                         <li>
-                                            <a href="index-03.html#!">About</a>
+                                            <a href="#about-us">About</a>
                                         </li>
-                                        <li><a href="index-03.html#!">Services</a>
-                                        </li>
-                                        <li>
-                                            <a href="index-03.html#!">Projects</a>
+                                        <li><a href="#services">Services</a>
                                         </li>
                                         <li>
-                                            <a href="index-03.html#!">Contact us</a>
+                                            <a href="#projects">Projects</a>
+                                        </li>
+                                        <li>
+                                            <a href="#footer">Contact us</a>
                                         </li>
                                     </ul>
                                     <!-- end menu area -->
@@ -112,7 +112,7 @@
 
         <!-- BANNER
         ================================================== -->
-        <section class="p-0 top-position1 full-screen">
+        <section class="p-0 top-position1 full-screen" id="banner">
             <div class="video-background">
                 <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
                     <source src="video/Numerator_Homepage_Animation_DotsTubes.mp4" type="video/mp4">
@@ -126,7 +126,7 @@
                             </div>
                             <h1 class="text-white font-weight-600 display-4 display-xl-3 mb-1-9">Big data for small
                                 business.</h1>
-                            <a class="butn-style03 white" href="about-us.html">Learn more</a>
+                            <a class="butn-style03 white" href="#about-us">Learn more</a>
                         </div>
                     </div>
                 </div>
@@ -136,7 +136,7 @@
 
         <!-- ABOUT US
         ================================================== -->
-        <section class="overflow-visible pt-9 pb-0 background-flip">
+        <section class="overflow-visible pt-9 pb-0 background-flip" id="about-us">
             <div class="container">
                 <div class="row align-items-center flex-row-reverse">
                     <div class="col-lg-6 mb-1-1 mb-lg-0">
@@ -223,7 +223,7 @@
         </section>
         <!-- SERVICES
         ================================================== -->
-        <section class="bg-dark">
+        <section class="bg-dark" id="services">
             <div class="container">
                 <div class="section-heading-style3 text-center mb-1-9 mb-md-2-3 mb-lg-2-9 wow fadeIn"
                     data-wow-delay="100ms">
@@ -307,9 +307,9 @@
             </div>
         </section>
 
-        <!-- CARDS 
+        <!-- PROJECTS 
         ================================================== -->
-        <section class="background-flip">
+        <section class="background-flip" id="projects">
             <div class="container">
                 <div class="section-heading-style2 text-center mb-1-9 mb-md-2-3 mb-lg-2-9 wow fadeIn"
                     data-wow-delay="100ms">
@@ -317,22 +317,24 @@
                     <h2 class="h1 mb-0">Our Projects & updates</h2>
                 </div>
                 <div class="row g-xl-5 mt-n2-9">
-                    <div class="col-md-6 col-lg-4 mt-2-9 wow fadeIn" data-wow-delay="200ms">
-                        <article class="card card-style8 border-radius-10 m-0 h-100">
-                            <img class="card-img-top" src="img/blog/blog-01.jpg" alt="...">
-                            <div class="card-body p-3 p-sm-4">
-                                <h3 class="h3 mb-0"><a href="blog-detail.html">WORK FORCE PLANNING</a></h3>
-                                <br>
-                                <p>Building a predictive ARIMA model for a Telemedicine company’s GP workforce planning</p>
+                        <a href="http://">
+                            <div class="col-md-6 col-lg-4 mt-2-9 wow fadeIn" data-wow-delay="200ms">
+                                <article class="card card-style8 border-radius-10 m-0 h-100">
+                                    <img class="card-img-top" src="img/blog/blog-01.jpg" alt="...">
+                                    <div class="card-body p-3 p-sm-4">
+                                        <h3 class="h3 mb-0"><a href="blog-detail.html">WORK FORCE PLANNING</a></h3>
+                                        <br>
+                                        <p>Building a predictive ARIMA model for a Telemedicine company’s GP workforce planning</p>
+                                    </div>
+                                    <div class="card-footer px-0 bg-white py-3 mx-3 mx-sm-4">
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <a href="blog-detail.html">Read More</a>
+                                            <a href="blog-detail.html"><i class="ti-arrow-right align-middle"></i></a>
+                                        </div>
+                                    </div>
+                                </article>
                             </div>
-                            <div class="card-footer px-0 bg-white py-3 mx-3 mx-sm-4">
-                                <div class="d-flex align-items-center justify-content-between">
-                                    <a href="blog-detail.html">Read More</a>
-                                    <a href="blog-detail.html"><i class="ti-arrow-right align-middle"></i></a>
-                                </div>
-                            </div>
-                        </article>
-                    </div>
+                        </a>
                     <div class="col-md-6 col-lg-4 mt-2-9 wow fadeIn" data-wow-delay="400ms">
                         <article class="card card-style8 border-radius-10 m-0 h-100">
                             <img class="card-img-top" src="img/blog/blog-02.jpg" alt="...">
@@ -443,7 +445,7 @@
         </section>
         <!-- FOOTER
         ================================================== -->
-        <footer class="position-relative pt-0 bg-dark">
+        <footer class="position-relative pt-0 bg-dark" id="footer">
             <div class="bg-secondary py-1-9 mb-6 mb-xxl-10">
                 <div class="container">
                     <div class="row mt-n1-9 align-items-center">
@@ -454,7 +456,7 @@
                                 </div>
                                 <div class="flex-grow-1 ms-3">
                                     <p class="mb-0 text-white">Contact Us</p>
-                                    <h3 class="mb-0 h5 text-white"><a href="tel:+447745252094">+(44) 774-525-20-94</a></h3>
+                                    <h3 class="mb-0 h5 text-white"><a class="text-white" href="tel:+447745252094">+(44) 774-525-20-94</a></h3>
                                 </div>
                             </div>
                         </div>
@@ -467,7 +469,7 @@
                             <div class="d-flex align-items-center text-lg-end">
                                 <div class="flex-grow-1 ms-3 ms-lg-0 me-lg-3 order-2 order-lg-1">
                                     <p class="mb-0 text-white">Mail Us</p>
-                                    <h3 class="mb-0 h5 text-white"><a href="mailto:info@mutabalis.com">info@mutabalis.com</a></h3>
+                                    <h3 class="mb-0 h5 text-white"><a class="text-white" href="mailto:info@mutabalis.com">info@mutabalis.com</a></h3>
                                 </div>
                                 <div class="flex-shrink-0 order-1 order-lg-2">
                                     <img src="img/icons/icon-mail-white.png" alt="...">
@@ -504,10 +506,10 @@
                                         07065.</span>
                                 </li>
                                 <li class="text-white mb-3">
-                                    <strong>Email:</strong> <span class="opacity8"><a href="mailto:info@mutabalis.com">info@mutabalis.com</a></span>
+                                    <strong>Email:</strong> <span class="opacity8"><a class="text-white" href="mailto:info@mutabalis.com">info@mutabalis.com</a></span>
                                 </li>
                                 <li class="text-white">
-                                    <strong>Phone:</strong> <span class="opacity8"><a href="tel:+447745252094">+(44) 774-525-20-94</a></span>
+                                    <strong>Phone:</strong> <span class="opacity8"><a class="text-white" href="tel:+447745252094">+(44) 774-525-20-94</a></span>
                                 </li>
                             </ul>
                         </div>

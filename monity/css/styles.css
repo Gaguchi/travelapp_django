@@ -8324,3 +8324,34 @@ footer .phone a:focus {
     -o-animation: rotating 15s linear infinite;
     animation: rotating 15s linear infinite;
   }
+
+.card-style9 {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card-style9:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.card-style9 .icon-box {
+    transition: transform 0.3s ease-in-out;
+}
+
+
+.card {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.card .card-footer a:last-child {
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover .card-footer a:last-child {
+    transform: translateX(5px);
+}
