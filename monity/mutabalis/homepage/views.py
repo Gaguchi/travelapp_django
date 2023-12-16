@@ -1,6 +1,6 @@
 from django.shortcuts import render
 
-def home(request):
+def index(request):
     return render(request, 'homepage/home.html')
 
 def projects(request):
