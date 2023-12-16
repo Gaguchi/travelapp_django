@@ -1,0 +1,10 @@
+(function($) { "use strict";
+//Navigation	
+
+$('ul.slimmenu').on('click',function(){
+var width = $(window).width(); 
+if ((width <= 800)){ 
+    $(this).slideToggle(); 
+}	
+});	
+})(jQuery);

@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>Available Tours</h1>
+    {% if tours %}
+        <ul>
+            {% for tour in tours %}
+                <li>
+                    <h2>{{ tour.city.name }}</h2>
+                    <ul>
+                        {% for hotel in tour.hotels %}
+                            <li>{{ hotel.name }} ({{ hotel.rating }} stars)</li>
+                        {% empty %}
+                            <li>No hotels found for this city.</li>
+                        {% endfor %}
+                    </ul>
+                    <ul>
+                        {% for restaurant in tour.restaurants %}
+                            <li>{{ restaurant.name }} ({{ restaurant.cuisine }} cuisine)</li>
+                        {% empty %}
+                            <li>No restaurants found for this city.</li>
+                        {% endfor %}
+                    </ul>
+                </li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>No tours available at this time.</p>
+    {% endif %}
+{% endblock %}
