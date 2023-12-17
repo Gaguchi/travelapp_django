@@ -17,7 +17,7 @@
       a = s(".navbar-brand img"),
       o = s(".navbar-brand.logodefault img"),
       t = s(".navbar-brand.dark img");
-    e <= 50 ? (s("header").removeClass("scrollHeader").addClass("fixedHeader"), a.attr("src", "{% static 'homepage/img/logos/logo-inner.png' %}")) : (s("header").removeClass("fixedHeader").addClass("scrollHeader"), a.attr("src", "{% static 'homepage/img/logos/logo.png' %}")), o.attr("src", "{% static 'homepage/img/logos/logo.png' %}"), t.attr("src", "{% static 'homepage/img/logos/logo.png' %}")
+    e <= 50 ? (s("header").removeClass("scrollHeader").addClass("fixedHeader"), a.attr("src", "/static/homepage/img/logos/logo-inner.png")) : (s("header").removeClass("fixedHeader").addClass("scrollHeader"), a.attr("src", "/static/homepage/img/logos/logo.png")), o.attr("src", "/static/homepage/img/logos/logo.png"), t.attr("src", "/static/homepage/img/logos/logo.png")
   }), i.on("scroll", function () {
     500 < s(this).scrollTop() ? s(".scroll-to-top").fadeIn(400) : s(".scroll-to-top").fadeOut(400)
   }), s(".scroll-to-top").on("click", function (e) {
