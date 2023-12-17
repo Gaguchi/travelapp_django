@@ -2,11 +2,50 @@
 {% load static %}
 {% block title %}Projects{% endblock %}
 
-{% block content %}
-    <h1>Projects</h1>
-    <ul>
-        {% for project in projects %}
-            <li>{{ project.name }}</li>
-        {% endfor %}
-    </ul>
+{% block content %}    
+<script type="text/javascript">
+    document.addEventListener("DOMContentLoaded", function() {
+        if (typeof useEffect === 'function') {
+            useEffect();
+        }
+    });
+    </script>
+    <div id="projects"></div>
+    <script type="text/babel">
+        function Projects() {
+          const [projects, setProjects] = React.useState([]);
+          const [error, setError] = React.useState(null);
+      
+          React.useEffect(() => {
+            fetch('/projects/')
+              .then(response => {
+                if (!response.ok) { throw response }
+                return response.json()
+              })
+              .then(data => {
+                setProjects(data);
+                console.log(data);
+                console.log("test");
+              })
+              .catch(err => {
+                console.error("Error fetching data: ", err);
+                setError(err);
+              });
+          }, []);
+      
+          return (
+            <div>
+              <h1>Projects</h1>
+              {projects.map(project => (
+                <div key={project.id}>
+                  <h2>{project.title}</h2>
+                  {/* Display other project fields as needed */}
+                </div>
+              ))}
+            </div>
+          );
+        }
+      
+        ReactDOM.render(<Projects />, document.getElementById('projects'));
+      </script>
 {% endblock %}
