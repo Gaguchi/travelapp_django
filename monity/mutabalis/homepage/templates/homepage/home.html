@@ -210,115 +210,28 @@
                     <h2 class="h1 mb-0">Our Projects & updates</h2>
                 </div>
                 <div class="row g-xl-5 mt-n2-9">
-                    {}
+                        {% for project in projects %}
                             <div class="col-md-6 col-lg-4 mt-2-9 wow fadeIn" data-wow-delay="200ms">
-                                <a href="{% url 'projects_home' %}">
+                                <a href="{% url 'project_detail' project.id %}">
                                 <article class="card card-style8 border-radius-10 m-0 h-100">
-                                    <img class="card-img-top" src="{% static 'homepage/img/blog/blog-01.jpg' %}" alt="...">
+                                    <img class="card-img-top" src="{{ STATIC_URL }}static/homepage/{{ project.main_image }}" alt="...">
                                     <div class="card-body p-3 p-sm-4">
-                                        <h3 class="h3 mb-0"><a href="blog-detail.html">WORK FORCE PLANNING</a></h3>
+                                        <h3 class="h3 mb-0"><a href="{% url 'project_detail' project.id %}">{{project.title}}</a></h3>
                                         <br>
-                                        <p>Building a predictive ARIMA model for a Telemedicine company’s GP workforce planning</p>
+                                        <p>{{project.short_description}}</p>
                                     </div>
                                     <div class="card-footer px-0 bg-white py-3 mx-3 mx-sm-4">
                                         <div class="d-flex align-items-center justify-content-between">
-                                            <a href="blog-detail.html">Read More</a>
-                                            <a href="blog-detail.html"><i class="ti-arrow-right align-middle"></i></a>
+                                            <a href="{% url 'project_detail' project.id %}">Read More</a>
+                                            <a href="{% url 'project_detail' project.id %}"><i class="ti-arrow-right align-middle"></i></a>
                                         </div>
                                     </div>
                                 </article>
                             </a>
                             </div>
-                            <div class="col-md-6 col-lg-4 mt-2-9 wow fadeIn" data-wow-delay="400ms">
-                                <a href="{% url 'projects_home' %}">
-                                <article class="card card-style8 border-radius-10 m-0 h-100">
-                                    <img class="card-img-top" src="{% static 'homepage/img/blog/blog-02.jpg' %}" alt="...">
-                                    <div class="card-body p-3 p-sm-4">
-                                        <h3 class="h3 mb-0"><a href="blog-detail.html">ETL PROCESSES</a></h3>
-                                        <br>
-                                        <p>for a large UK automobile manufacturer; collecting structured and semi structured data using python to create dashboards in Tableau</p>
-                                    </div>
-                                    <div class="card-footer px-0 bg-white py-3 mx-3 mx-sm-4">
-                                        <div class="d-flex align-items-center justify-content-between">
-                                            <a href="blog-detail.html">Read More</a>
-                                            <a href="blog-detail.html"><i class="ti-arrow-right align-middle"></i></a>
-                                        </div>
-                                    </div>
-                                </article>
-                            </a>
-                            </div>
-                            <div class="col-md-6 col-lg-4 mt-2-9 wow fadeIn" data-wow-delay="600ms">
-                                <a href="{% url 'projects_home' %}">
-                                <article class="card card-style8 border-radius-10 m-0 h-100">
-                                    <img class="card-img-top" src="{% static 'homepage/img/blog/blog-03.jpg' %}" alt="...">
-                                    <div class="card-body p-3 p-sm-4">
-                                        <h3 class="h3 mb-0"><a href="blog-detail.html">CLASSIFICATION OF DOCUMENTS</a></h3>
-                                        <br>
-                                        <p>for a large UK Health care provider classification of over 5 million unique documents into 36 new categories.</p>
-                                    </div>
-                                    <div class="card-footer px-0 bg-white py-3 mx-3 mx-sm-4">
-                                        <div class="d-flex align-items-center justify-content-between">
-                                            <a href="blog-detail.html">Read More</a>
-                                            <a href="blog-detail.html"><i class="ti-arrow-right align-middle"></i></a>
-                                        </div>
-                                    </div>
-                                </article>
-                            </a>
-                            </div>
-                            <div class="col-md-6 col-lg-4 mt-2-9 wow fadeIn" data-wow-delay="800ms">
-                                <a href="{% url 'projects_home' %}">
-                                <article class="card card-style8 border-radius-10 m-0 h-100">
-                                    <img class="card-img-top" src="{% static 'homepage/img/blog/blog-04.jpg' %}" alt="...">
-                                    <div class="card-body p-3 p-sm-4">
-                                        <h3 class="h3 mb-0"><a href="blog-detail.html">WEB SITE DESIGN AND WEB SCRAPING</a></h3>
-                                        <br>
-                                        <p>for a wine importer. Created a website and scraped several months’ worth of wine price data from leading online vendors in the UK</p>
-                                    </div>
-                                    <div class="card-footer px-0 bg-white py-3 mx-3 mx-sm-4">
-                                        <div class="d-flex align-items-center justify-content-between">
-                                            <a href="blog-detail.html">Read More</a>
-                                            <a href="blog-detail.html"><i class="ti-arrow-right align-middle"></i></a>
-                                        </div>
-                                    </div>
-                                </article>
-                            </a>
-                            </div>
-                            <div class="col-md-6 col-lg-4 mt-2-9 wow fadeIn" data-wow-delay="1000ms">
-                                <a href="{% url 'projects_home' %}">
-                                <article class="card card-style8 border-radius-10 m-0 h-100">
-                                    <img class="card-img-top" src="{% static 'homepage/img/blog/blog-05.jpg' %}" alt="...">
-                                    <div class="card-body p-3 p-sm-4">
-                                        <h3 class="h3 mb-0"><a href="blog-detail.html">PRODUCTION COST OPTIMISATION MODEL</a></h3>
-                                        <br>
-                                        <p> For a large European food manufacturer, using raw material and utilities data creating a model for greater production efficiencies</p>
-                                    </div>
-                                    <div class="card-footer px-0 bg-white py-3 mx-3 mx-sm-4">
-                                        <div class="d-flex align-items-center justify-content-between">
-                                            <a href="blog-detail.html">Read More</a>
-                                            <a href="blog-detail.html"><i class="ti-arrow-right align-middle"></i></a>
-                                        </div>
-                                    </div>
-                                </article>
-                            </a>
-                            </div>
-                            <div class="col-md-6 col-lg-4 mt-2-9 wow fadeIn" data-wow-delay="1200ms">
-                                <a href="{% url 'projects_home' %}">
-                                <article class="card card-style8 border-radius-10 m-0 h-100">
-                                    <img class="card-img-top" src="{% static 'homepage/img/blog/blog-06.jpg' %}" alt="...">
-                                    <div class="card-body p-3 p-sm-4">
-                                        <h3 class="h3 mb-0"><a href="blog-detail.html">DEMAND AND CAPACITY PLANNING</a></h3>
-                                        <br>
-                                        <p>for UK hospitals, estimation of bed and attendance requirements by region, site and speciality for the next 10 years.</p>
-                                    </div>
-                                    <div class="card-footer px-0 bg-white py-3 mx-3 mx-sm-4">
-                                        <div class="d-flex align-items-center justify-content-between">
-                                            <a href="blog-detail.html">Read More</a>
-                                            <a href="blog-detail.html"><i class="ti-arrow-right align-middle"></i></a>
-                                        </div>
-                                    </div>
-                                </article>
-                            </a>
-                            </div>
+                            {% empty %}
+                                <p>No projects found.</p>
+                            {% endfor %}
                 </div>
             </div>
         </section>

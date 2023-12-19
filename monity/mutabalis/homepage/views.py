@@ -3,7 +3,8 @@ from .models import Project
 from django.http import JsonResponse
 
 def index(request):
-    return render(request, 'homepage/home.html')
+    projects = Project.objects.all()
+    return render(request, 'homepage/home.html', {'projects': projects})
 
 def projects(request):
     projects = Project.objects.all()
