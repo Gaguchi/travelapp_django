@@ -59,6 +59,8 @@
                 const projectTitle = projectData.title;
                 const projectDescription = projectData.description;
                 const projectbanner_image = projectData.banner_image;
+                const projectmain_image = projectData.main_image;
+                const projectsecondary_image = projectData.secondary_image;
                 const titleElements = document.querySelectorAll('.JSON_title');
                 titleElements.forEach(element => {
                     element.textContent = projectTitle;
@@ -66,8 +68,10 @@
                 const descElements = document.querySelectorAll('.JSON_descripton');
                 descElements.forEach(element => {
                     element.textContent = projectDescription;
-                document.querySelector('.JSON_banner_image').style.backgroundImage = "url(/static/homepage" + projectbanner_image + ")";
                 });
+                document.querySelector('.JSON_banner_image').style.backgroundImage = "url(/static/homepage" + projectbanner_image + ")";
+                document.querySelector('.JSON_main_image').src = "/static/homepage" + projectmain_image ;
+                document.querySelector('.JSON_secondary_image').src = "/static/homepage" + projectsecondary_image ;
             })
             .catch(error => console.error('Error:', error));
     }
@@ -160,12 +164,10 @@
                   </div>
                   <div class="col-lg-8 order-1 order-lg-2 mb-2-6 mb-lg-0">
                       <div class="detail-services">
-                          <img class="mb-2-6 border-radius-5 wow fadeIn" data-wow-delay="100ms" src="img/content/service-02.jpg" alt="...">
+                          <img class="mb-2-6 border-radius-5 wow fadeIn JSON_main_image" data-wow-delay="100ms" src="img/content/service-02.jpg" alt="...">
                           <div class="mb-1-6 wow fadeIn" data-wow-delay="200ms">
-                              <h3 class="h2 mb-3 JSON_title">CCTV Installation</h3>
-                              <p class="w-95 JSON_descripton">
-                                  CCTV installation is simply dummy text of the printing and typesetting industry. lorem ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type andscrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the releaseof Letraset sheets containing Lorem Ipsum passages, and more recently including versions of lorem ipsum.
-                              </p>
+                              <h3 class="h2 mb-3 JSON_title"></h3>
+                              <p class="w-95 JSON_descripton"></p>
                           </div>
                           <div class="row mb-1-9 mt-n1-9">
                               <div class="col-sm-4 mt-1-9 wow fadeIn" data-wow-delay="100ms">
@@ -196,7 +198,7 @@
                               <div class="row mt-n1-9">
                                   <div class="col-md-6 mt-1-9">
                                       <div class="wow fadeIn" data-wow-delay="100ms">
-                                          <img src="img/content/cctv-installation-02.jpg" class="border-radius-5" alt="...">
+                                          <img src="img/content/cctv-installation-02.jpg" class="border-radius-5 JSON_secondary_image" alt="...">
                                       </div>
                                   </div>
                                   <div class="col-md-6 mt-1-9">
