@@ -4,7 +4,7 @@
 
 {% block content %}
 <script type="text/javascript">
-    let activeProject = null;
+    let activeProject = {{ active_project_id }};
     let activeListItem = null;
     function toCamelCase(str) {
         return str.split(' ').map(function(word) {
@@ -37,9 +37,9 @@
                     listItem.appendChild(link);
                     listStyle4.appendChild(listItem);
                 });
-                // Fetch details of the first project by default
+                // Set the active project to the first project and fetch its details
                 if (projects.length > 0) {
-                    fetchProjectDetails(projects[0].id);
+                    fetchProjectDetails(activeProject);
                 }
             })
             .catch(error => console.error('Error:', error));
