@@ -2,50 +2,227 @@
 {% load static %}
 {% block title %}Projects{% endblock %}
 
-{% block content %}    
+{% block content %}
 <script type="text/javascript">
+    let activeProject = null;
+    let activeListItem = null;
+    function toCamelCase(str) {
+        return str.split(' ').map(function(word) {
+            return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
+        }).join(' ');
+    }
     document.addEventListener("DOMContentLoaded", function() {
-        if (typeof useEffect === 'function') {
-            useEffect();
-        }
+        fetch('/projects/')
+            .then(response => response.json())
+            .then(projects => {
+                const listStyle4 = document.querySelector('.list-style4');
+                projects.forEach(project => {
+                    const listItem = document.createElement('li');
+                    const link = document.createElement('a');
+                    link.href = '#';
+                    link.textContent = toCamelCase(project.title);
+                    link.style.whiteSpace = 'nowrap';
+                    link.style.overflow = 'hidden';
+                    link.style.textOverflow = 'ellipsis';
+                    link.onclick = function() {
+                        if (activeListItem) {
+                            activeListItem.classList.remove('active');
+                        }
+                        listItem.classList.add('active');
+                        activeListItem = listItem;
+                        activeProject = project;
+                        fetchProjectDetails(activeProject.id);
+                        return false;  // Prevent the link from navigating to '#'
+                    };
+                    listItem.appendChild(link);
+                    listStyle4.appendChild(listItem);
+                });
+                // Fetch details of the first project by default
+                if (projects.length > 0) {
+                    fetchProjectDetails(projects[0].id);
+                }
+            })
+            .catch(error => console.error('Error:', error));
     });
-    </script>
-    <div id="projects"></div>
-    <script type="text/babel">
-        function Projects() {
-          const [projects, setProjects] = React.useState([]);
-          const [error, setError] = React.useState(null);
-      
-          React.useEffect(() => {
-            fetch('/projects/')
-              .then(response => {
-                if (!response.ok) { throw response }
-                return response.json()
-              })
-              .then(data => {
-                setProjects(data);
-                console.log(data);
-                console.log("test");
-              })
-              .catch(err => {
-                console.error("Error fetching data: ", err);
-                setError(err);
-              });
-          }, []);
-      
-          return (
-            <div>
-              <h1>Projects</h1>
-              {projects.map(project => (
-                <div key={project.id}>
-                  <h2>{project.title}</h2>
-                  {/* Display other project fields as needed */}
-                </div>
-              ))}
+
+    function fetchProjectDetails(projectId) {
+        fetch('/project/' + projectId + '/')
+            .then(response => {
+                if (!response.ok) {
+                    console.error('Error status:', response.status);
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();
+            })
+            .then(projectData => {
+                console.log(projectData); // Debugging the JSON response
+                const projectTitle = projectData.title;
+                const projectDescription = projectData.description;
+                const projectbanner_image = projectData.banner_image;
+                const titleElements = document.querySelectorAll('.JSON_title');
+                titleElements.forEach(element => {
+                    element.textContent = projectTitle;
+                });
+                const descElements = document.querySelectorAll('.JSON_descripton');
+                descElements.forEach(element => {
+                    element.textContent = projectDescription;
+                document.querySelector('.JSON_banner_image').style.backgroundImage = "url(/static/homepage" + projectbanner_image + ")";
+                });
+            })
+            .catch(error => console.error('Error:', error));
+    }
+</script>
+<!-- PAGE TITLE
+================================================== -->
+<section class="page-title-section bg-img cover-background top-position1 JSON_banner_image" data-overlay-dark="5" >
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="JSON_title">CCTV Installation</h1>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li class="JSON_title">CCTV Installation</li>
+                </ul>                    
             </div>
-          );
-        }
-      
-        ReactDOM.render(<Projects />, document.getElementById('projects'));
-      </script>
+        </div>
+    </div>
+    <span class="triangle-3 z-index-1 d-none d-sm-inline-block"></span>
+    <span class="triangle-4 z-index-1 d-none d-sm-inline-block"></span>
+    <img src="img/content/dots2.png" class="position-absolute right-5 bottom-5 ani-top-bottom z-index-3 d-none d-sm-block" alt="...">
+    <div class="page-title-round ani-move"></div>
+</section>
+
+<!-- CCTV INSTALLATION
+================================================== -->
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 order-2 order-lg-1">
+                <div class="service-details-sidebar pe-lg-1-6 pe-xl-1-9">
+                    <aside class="widget widget-nav-menu wow fadeIn mb-1-6" data-wow-delay="100ms">
+                        <div class="widget-title">
+                            <h4 class="title h6 mb-0">Our Services</h4>
+                        </div>
+                        <div class="widget-body">
+                            <ul class="list-style4">
+                            </ul>
+                        </div>
+                    </aside>
+                    <aside class="widget widget-brochure mb-1-6 wow fadeIn" data-wow-delay="150ms">
+                        <div class="widget-title">
+                            <h4 class="title h6 mb-0">Brochures</h4>
+                        </div>
+                        <div class="widget-body">
+                            <ul class="brochures">
+                                <li>
+                                    <a href="cctv-installation.html#!"><i class="far fa-file-pdf"></i>Download.pdf</a>
+                                      </li>
+                                      <li class="mb-0 last">
+                                          <a href="cctv-installation.html#!"><i class="far fa-file-alt"></i>Download.txt</a>
+                                      </li>
+                                  </ul>
+                              </div>
+                          </aside>
+                          <aside class="widget widget-address wow fadeIn p-0 mb-0" data-wow-delay="200ms">
+                              <div class="cover-background bg-img p-1-9 rounded word-break dark-overlay" data-overlay-dark="6" data-background="img/content/sidebar-image.jpg">
+                                  <div class="d-table-cell vertical-align-middle z-index-2 position-relative">
+                                      <div class="d-flex mb-4">
+                                          <div class="flex-shrink-0">
+                                              <div class="contact-icons"><i class="ti-mobile"></i></div>
+                                          </div>
+                                          <div class="flex-grow-1 ms-3 ms-lg-4">
+                                              <h4 class="h5 mb-1 text-white">Call Us</h4>
+                                              <p class="mb-0 text-white">(+44) 123 456 7892</p>
+                                          </div>
+                                      </div>
+                                      <div class="d-flex mb-4">
+                                          <div class="flex-shrink-0">
+                                              <div class="contact-icons"><i class="ti-email"></i></div>
+                                          </div>
+                                          <div class="flex-grow-1 ms-3 ms-lg-4">
+                                              <h4 class="h5 mb-1 text-white">Email</h4>
+                                              <p class="mb-0 text-white">addyour@emailhere</p>
+                                          </div>
+                                      </div>
+                                      <div class="d-flex">
+                                          <div class="flex-shrink-0">
+                                              <div class="contact-icons"><i class="fas fa-map-marker-alt"></i></div>
+                                          </div>
+                                          <div class="flex-grow-1 ms-3 ms-lg-4">
+                                              <h4 class="h5 mb-1 text-white">Location</h4>
+                                              <p class="mb-0 text-white">66 Guild Street 512, UK</p>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </aside>
+                      </div>
+                  </div>
+                  <div class="col-lg-8 order-1 order-lg-2 mb-2-6 mb-lg-0">
+                      <div class="detail-services">
+                          <img class="mb-2-6 border-radius-5 wow fadeIn" data-wow-delay="100ms" src="img/content/service-02.jpg" alt="...">
+                          <div class="mb-1-6 wow fadeIn" data-wow-delay="200ms">
+                              <h3 class="h2 mb-3 JSON_title">CCTV Installation</h3>
+                              <p class="w-95 JSON_descripton">
+                                  CCTV installation is simply dummy text of the printing and typesetting industry. lorem ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type andscrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the releaseof Letraset sheets containing Lorem Ipsum passages, and more recently including versions of lorem ipsum.
+                              </p>
+                          </div>
+                          <div class="row mb-1-9 mt-n1-9">
+                              <div class="col-sm-4 mt-1-9 wow fadeIn" data-wow-delay="100ms">
+                                  <div>
+                                      <img src="https://monityhtml.websitelayout.net/img/Icons/icon-01.png" class="mb-3" alt="...">
+                                      <h4>Video Intercoms</h4>
+                                      <p class="mb-0">Latest technology of best security system.</p>
+                                  </div>
+                              </div>
+                              <div class="col-sm-4 mt-1-9 wow fadeIn" data-wow-delay="150ms">
+                                  <div>
+                                      <img src="https://monityhtml.websitelayout.net/img/Icons/icon-02.png" class="mb-3" alt="...">
+                                      <h4>New Technology</h4>
+                                      <p class="mb-0">Latest technology of best security system.</p>
+                                  </div>
+                              </div>
+                              <div class="col-sm-4 mt-1-9 wow fadeIn" data-wow-delay="200ms">
+                                  <div>
+                                      <img src="https://monityhtml.websitelayout.net/img/Icons/icon-03.png" class="mb-3" alt="...">
+                                      <h4>Access Control</h4>
+                                      <p class="mb-0">Latest technology of best security system.</p>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="mb-0">
+                              <h3 class="mb-3">How We Work</h3>
+                              <p class="w-95 mb-1-9">All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.</p>
+                              <div class="row mt-n1-9">
+                                  <div class="col-md-6 mt-1-9">
+                                      <div class="wow fadeIn" data-wow-delay="100ms">
+                                          <img src="img/content/cctv-installation-02.jpg" class="border-radius-5" alt="...">
+                                      </div>
+                                  </div>
+                                  <div class="col-md-6 mt-1-9">
+                                      <ul class="list-unstyled ps-md-2 mb-0 wow fadeIn" data-wow-delay="200ms">
+                                          <li class="mb-1-6">
+                                              <span class="text-primary text-uppercase font-weight-600 small">Step 1</span>
+                                              <h3 class="h5 text-uppercase">Discussion</h3>
+                                              <p class="mb-0">We will select the optimum solution for all your problems.</p>
+                                          </li>
+                                          <li class="mb-1-6">
+                                              <span class="text-primary text-uppercase font-weight-600 small">Step 2</span>
+                                              <h3 class="h5 text-uppercase">Installation</h3>
+                                              <p class="mb-0">We will select the optimum solution for all your problems.</p>
+                                          </li>
+                                          <li class="mb-1-6">
+                                              <span class="text-primary text-uppercase font-weight-600 small">Step 3</span>
+                                              <h3 class="h5 text-uppercase">Maintenance</h3>
+                                              <p class="mb-0">We will select the optimum solution for all your problems.</p>
+                                          </li>
+                                      </ul>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
 {% endblock %}
