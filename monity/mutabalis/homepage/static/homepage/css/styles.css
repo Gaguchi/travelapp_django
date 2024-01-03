@@ -8168,6 +8168,11 @@ footer .phone a:focus {
       width: 221px;
       height: 294px;
     }
+    .book-title{        
+        height: 294px;
+        left: -217px;
+        top: -40px;
+    }
 }
 
   .book-back .text {
