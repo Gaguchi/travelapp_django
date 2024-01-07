@@ -3139,7 +3139,6 @@ a:active {
 .card-style9 .card-body {
     position: relative;
     display: block;
-    border-radius: 5px;
     background-color: #343c56;
     padding: 40px 30px 34px 40px;
     height: 100%
@@ -8158,7 +8157,7 @@ footer .phone a:focus {
       width: 221px;
       height: 294px;
     }
-    .title {
+    .book-title {
       content: "";
       height: 294px;
       width: 30px;
@@ -8168,6 +8167,11 @@ footer .phone a:focus {
     .book-back {    
       width: 221px;
       height: 294px;
+    }
+    .book-title{        
+        height: 294px;
+        left: -217px;
+        top: -40px;
     }
 }
 
@@ -8355,4 +8359,15 @@ footer .phone a:focus {
 
 .card:hover .card-footer a:last-child {
     transform: translateX(5px);
+}
+
+
+.steps-left {
+    visibility: visible;
+    border-radius: 10px;
+    height: 100%;
+    animation-delay: 100ms;
+    background-position: center;
+    background-size: cover;
+    animation-name: fadeIn;
 }

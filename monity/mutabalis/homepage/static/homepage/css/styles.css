@@ -8360,3 +8360,14 @@ footer .phone a:focus {
 .card:hover .card-footer a:last-child {
     transform: translateX(5px);
 }
+
+
+.steps-left {
+    visibility: visible;
+    border-radius: 10px;
+    height: 100%;
+    animation-delay: 100ms;
+    background-position: center;
+    background-size: cover;
+    animation-name: fadeIn;
+}
