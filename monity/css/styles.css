@@ -3139,6 +3139,7 @@ a:active {
 .card-style9 .card-body {
     position: relative;
     display: block;
+    border-radius: 5px;
     background-color: #343c56;
     padding: 40px 30px 34px 40px;
     height: 100%
