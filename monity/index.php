@@ -1,115 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-
-    <!-- metas -->
-    <meta charset="utf-8" />
-    <meta name="author" content="Website Design Templates" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <meta name="keywords" content="CCTV & Security HTML Template" />
-    <meta name="description" content="Mutabalis" />
-
-    <!-- title  -->
-    <title>Mutabalis</title>
-
-    <!-- favicon -->
-    <link rel="shortcut icon" href="img/logos/favicon.png" />
-    <link rel="apple-touch-icon" href="img/logos/apple-touch-icon-57x57.png" />
-    <link rel="apple-touch-icon" sizes="72x72" href="img/logos/apple-touch-icon-72x72.png" />
-    <link rel="apple-touch-icon" sizes="114x114" href="img/logos/apple-touch-icon-114x114.png" />
-
-    <!-- plugins -->
-    <link rel="stylesheet" href="css/plugins.css">
-
-    <!-- search css -->
-    <link rel="stylesheet" href="search/search.css">
-
-    <!-- quform css -->
-    <link rel="stylesheet" href="quform/css/base.css">
-
-    <!-- theme core css -->
-    <link href="css/styles.css" rel="stylesheet">
-
-</head>
-
-<body>
-
-    <!-- PAGE LOADING
-    ================================================== -->
-    <div id="preloader"></div>
-
-    <!-- MAIN WRAPPER
-    ================================================== -->
-    <div class="main-wrapper">
-
-        <!-- HEADER
-        ================================================== -->
-        <header class="header-style1 menu_area-light">
-
-            <div class="navbar-default border-bottom border-color-light-white">
-
-                <!-- start top search -->
-                <div class="top-search bg-secondary">
-                    <div class="container-fluid px-sm-1-6 px-lg-2-9">
-                        <form class="search-form" action="https://monityhtml.websitelayout.net/search.html" method="GET"
-                            accept-charset="utf-8">
-                            <div class="input-group">
-                                <span class="input-group-addon cursor-pointer">
-                                    <button class="search-form_submit fas fa-search text-white" type="submit"></button>
-                                </span>
-                                <input type="text" class="search-form_input form-control" name="s" autocomplete="off"
-                                    placeholder="Type & hit enter...">
-                                <span class="input-group-addon close-search mt-2"><i class="fas fa-times"></i></span>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-                <!-- end top search -->
-
-                <div class="container-fluid px-lg-1-6 px-xl-2-5 px-xxl-2-9">
-                    <div class="row align-items-center">
-                        <div class="col-12 col-lg-12">
-                            <div class="menu_area alt-font">
-                                <nav class="navbar navbar-expand-lg navbar-light p-0">
-                                    <div class="navbar-header navbar-header-custom">
-                                        <!-- start logo -->
-                                        <a href="index.html" class="navbar-brand"><img id="logo"
-                                                src="img/logos/logo-inner.png" alt="logo" /></a>
-                                        <!-- end logo -->
-                                    </div>
-
-                                    <div class="navbar-toggler bg-secondary"></div>
-
-                                    <!-- menu area -->
-                                    <ul class="navbar-nav align-items-lg-center ms-auto" id="nav"
-                                        style="display: none;">
-                                        <li>
-                                            <a href="#banner">Home</a>
-                                        </li>
-                                        <li>
-                                            <a href="#about-us">About</a>
-                                        </li>
-                                        <li><a href="#services">Services</a>
-                                        </li>
-                                        <li>
-                                            <a href="#projects">Projects</a>
-                                        </li>
-                                        <li>
-                                            <a href="#footer">Contact us</a>
-                                        </li>
-                                    </ul>
-                                    <!-- end menu area -->
-                                    <!-- end attribute navigation -->
-                                </nav>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </header>
-
+<?php include 'header.php'; ?>
         <!-- BANNER
         ================================================== -->
         <section class="p-0 top-position1 full-screen" id="banner">
@@ -215,7 +104,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <a href="about-us.html" class="butn-style03">Read More</a>
+                                <a href="about-us.php" class="butn-style03">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -236,7 +125,7 @@
                             <div class="card-body">
                                 <span class="big-text">01</span>
                                 <div class="icon-box"><img src="img/icons/icon-10.png" alt="..."></div>
-                                <h3 class="position-relative pb-3 mb-4 h5"><a href="finger-print-access.html"
+                                <h3 class="position-relative pb-3 mb-4 h5"><a href="finger-print-access.php"
                                         class="text-white">Data Analytics</a></h3>
                                 <p class="mb-0 text-white opacity7">Development of dashboards, reporting tools and
                                     business intelligence.</p>
@@ -248,7 +137,7 @@
                             <div class="card-body">
                                 <span class="big-text">02</span>
                                 <div class="icon-box"><img src="img/icons/icon-12.png" alt="..."></div>
-                                <h3 class="position-relative pb-3 mb-4 h5"><a href="cctv-installation.html"
+                                <h3 class="position-relative pb-3 mb-4 h5"><a href="cctv-installation.php"
                                         class="text-white">Statistical modeling</a></h3>
                                 <p class="mb-0 text-white opacity7">building statistical models and time series
                                     forecasts to predict future trends.</p>
@@ -260,7 +149,7 @@
                             <div class="card-body">
                                 <span class="big-text">03</span>
                                 <div class="icon-box"><img src="img/icons/icon-11.png" alt="..."></div>
-                                <h3 class="position-relative pb-3 mb-4 h5"><a href="circuit-cameras.html"
+                                <h3 class="position-relative pb-3 mb-4 h5"><a href="circuit-cameras.php"
                                         class="text-white">Data warehousing solutions</a></h3>
                                 <p class="mb-0 text-white opacity7">offering data engineering and warehouse solutions.
                                 </p>
@@ -272,7 +161,7 @@
                             <div class="card-body">
                                 <span class="big-text">04</span>
                                 <div class="icon-box"><img src="img/icons/icon-13.png" alt="..."></div>
-                                <h3 class="position-relative pb-3 mb-4 h5"><a href="wifi-camera-security.html"
+                                <h3 class="position-relative pb-3 mb-4 h5"><a href="wifi-camera-security.php"
                                         class="text-white">Machine learning</a></h3>
                                 <p class="mb-0 text-white opacity7">developing machine learning models to predict future
                                     customer behavior.</p>
@@ -284,7 +173,7 @@
                             <div class="card-body">
                                 <span class="big-text">05</span>
                                 <div class="icon-box"><img src="img/icons/icon-08.png" alt="..."></div>
-                                <h3 class="position-relative pb-3 mb-4 h5"><a href="video-analytics-system.html"
+                                <h3 class="position-relative pb-3 mb-4 h5"><a href="video-analytics-system.php"
                                         class="text-white">Customer segmentation tools</a></h3>
                                 <p class="mb-0 text-white opacity7">using clustering algorithms to group customers based
                                     on similarities for targeted marketing campaigns.</p>
@@ -296,7 +185,7 @@
                             <div class="card-body">
                                 <span class="big-text">06</span>
                                 <div class="icon-box"><img src="img/icons/icon-09.png" alt="..."></div>
-                                <h3 class="position-relative pb-3 mb-4 h5"><a href="home-automation.html"
+                                <h3 class="position-relative pb-3 mb-4 h5"><a href="home-automation.php"
                                         class="text-white">Web design and SEO</a></h3>
                                 <p class="mb-0 text-white opacity7">analysis of website traffic for greater customer
                                     insights.</p>
@@ -322,14 +211,14 @@
                                 <article class="card card-style8 border-radius-10 m-0 h-100">
                                     <img class="card-img-top" src="img/blog/blog-01.jpg" alt="...">
                                     <div class="card-body p-3 p-sm-4">
-                                        <h3 class="h3 mb-0"><a href="work-force-planning.html">WORK FORCE PLANNING</a></h3>
+                                        <h3 class="h3 mb-0"><a href="work-force-planning.php">WORK FORCE PLANNING</a></h3>
                                         <br>
                                         <p>Building a predictive ARIMA model for a Telemedicine company’s GP workforce planning</p>
                                     </div>
                                     <div class="card-footer px-0 bg-white py-3 mx-3 mx-sm-4">
                                         <div class="d-flex align-items-center justify-content-between">
-                                            <a href="work-force-planning.html">Read More</a>
-                                            <a href="work-force-planning.html"><i class="ti-arrow-right align-middle"></i></a>
+                                            <a href="work-force-planning.php">Read More</a>
+                                            <a href="work-force-planning.php"><i class="ti-arrow-right align-middle"></i></a>
                                         </div>
                                     </div>
                                 </article>
@@ -339,14 +228,14 @@
                         <article class="card card-style8 border-radius-10 m-0 h-100">
                             <img class="card-img-top" src="img/blog/blog-02.jpg" alt="...">
                             <div class="card-body p-3 p-sm-4">
-                                <h3 class="h3 mb-0"><a href="etl.html">ETL PROCESSES</a></h3>
+                                <h3 class="h3 mb-0"><a href="etl.php">ETL PROCESSES</a></h3>
                                 <br>
                                 <p>for a large UK automobile manufacturer; collecting structured and semi structured data using python to create dashboards in Tableau</p>
                             </div>
                             <div class="card-footer px-0 bg-white py-3 mx-3 mx-sm-4">
                                 <div class="d-flex align-items-center justify-content-between">
-                                    <a href="etl.html">Read More</a>
-                                    <a href="etl.html"><i class="ti-arrow-right align-middle"></i></a>
+                                    <a href="etl.php">Read More</a>
+                                    <a href="etl.php"><i class="ti-arrow-right align-middle"></i></a>
                                 </div>
                             </div>
                         </article>
@@ -355,14 +244,14 @@
                         <article class="card card-style8 border-radius-10 m-0 h-100">
                             <img class="card-img-top" src="img/blog/blog-03.jpg" alt="...">
                             <div class="card-body p-3 p-sm-4">
-                                <h3 class="h3 mb-0"><a href="classification-of-documents.html">CLASSIFICATION OF DOCUMENTS</a></h3>
+                                <h3 class="h3 mb-0"><a href="classification-of-documents.php">CLASSIFICATION OF DOCUMENTS</a></h3>
                                 <br>
                                 <p>for a large UK Health care provider classification of over 5 million unique documents into 36 new categories.</p>
                             </div>
                             <div class="card-footer px-0 bg-white py-3 mx-3 mx-sm-4">
                                 <div class="d-flex align-items-center justify-content-between">
-                                    <a href="classification-of-documents.html">Read More</a>
-                                    <a href="classification-of-documents.html"><i class="ti-arrow-right align-middle"></i></a>
+                                    <a href="classification-of-documents.php">Read More</a>
+                                    <a href="classification-of-documents.php"><i class="ti-arrow-right align-middle"></i></a>
                                 </div>
                             </div>
                         </article>
@@ -371,14 +260,14 @@
                         <article class="card card-style8 border-radius-10 m-0 h-100">
                             <img class="card-img-top" src="img/blog/blog-04.jpg" alt="...">
                             <div class="card-body p-3 p-sm-4">
-                                <h3 class="h3 mb-0"><a href="web-design.html">WEB SITE DESIGN AND WEB SCRAPING</a></h3>
+                                <h3 class="h3 mb-0"><a href="web-design.php">WEB SITE DESIGN AND WEB SCRAPING</a></h3>
                                 <br>
                                 <p>for a wine importer. Created a website and scraped several months’ worth of wine price data from leading online vendors in the UK</p>
                             </div>
                             <div class="card-footer px-0 bg-white py-3 mx-3 mx-sm-4">
                                 <div class="d-flex align-items-center justify-content-between">
-                                    <a href="web-design.html">Read More</a>
-                                    <a href="web-design.html"><i class="ti-arrow-right align-middle"></i></a>
+                                    <a href="web-design.php">Read More</a>
+                                    <a href="web-design.php"><i class="ti-arrow-right align-middle"></i></a>
                                 </div>
                             </div>
                         </article>
@@ -387,14 +276,14 @@
                         <article class="card card-style8 border-radius-10 m-0 h-100">
                             <img class="card-img-top" src="img/blog/blog-05.jpg" alt="...">
                             <div class="card-body p-3 p-sm-4">
-                                <h3 class="h3 mb-0"><a href="production-cost-optimisation-model.html">PRODUCTION COST OPTIMISATION MODEL</a></h3>
+                                <h3 class="h3 mb-0"><a href="production-cost-optimisation-model.php">PRODUCTION COST OPTIMISATION MODEL</a></h3>
                                 <br>
                                 <p> For a large European food manufacturer, using raw material and utilities data creating a model for greater production efficiencies</p>
                             </div>
                             <div class="card-footer px-0 bg-white py-3 mx-3 mx-sm-4">
                                 <div class="d-flex align-items-center justify-content-between">
-                                    <a href="production-cost-optimisation-model.html">Read More</a>
-                                    <a href="production-cost-optimisation-model.html"><i class="ti-arrow-right align-middle"></i></a>
+                                    <a href="production-cost-optimisation-model.php">Read More</a>
+                                    <a href="production-cost-optimisation-model.php"><i class="ti-arrow-right align-middle"></i></a>
                                 </div>
                             </div>
                         </article>
@@ -403,14 +292,14 @@
                         <article class="card card-style8 border-radius-10 m-0 h-100">
                             <img class="card-img-top" src="img/blog/blog-06.jpg" alt="...">
                             <div class="card-body p-3 p-sm-4">
-                                <h3 class="h3 mb-0"><a href="demand-and-capacity-planning.html">DEMAND AND CAPACITY PLANNING</a></h3>
+                                <h3 class="h3 mb-0"><a href="demand-and-capacity-planning.php">DEMAND AND CAPACITY PLANNING</a></h3>
                                 <br>
                                 <p>for UK hospitals, estimation of bed and attendance requirements by region, site and speciality for the next 10 years.</p>
                             </div>
                             <div class="card-footer px-0 bg-white py-3 mx-3 mx-sm-4">
                                 <div class="d-flex align-items-center justify-content-between">
-                                    <a href="demand-and-capacity-planning.html">Read More</a>
-                                    <a href="demand-and-capacity-planning.html"><i class="ti-arrow-right align-middle"></i></a>
+                                    <a href="demand-and-capacity-planning.php">Read More</a>
+                                    <a href="demand-and-capacity-planning.php"><i class="ti-arrow-right align-middle"></i></a>
                                 </div>
                             </div>
                         </article>
@@ -443,164 +332,4 @@
                 </div>
             </div>
         </section>
-        <!-- FOOTER
-        ================================================== -->
-        <footer class="position-relative pt-0 bg-dark" id="footer">
-            <div class="bg-secondary py-1-9 mb-6 mb-xxl-10">
-                <div class="container">
-                    <div class="row mt-n1-9 align-items-center">
-                        <div class="col-md-6 col-lg-4 mt-1-9">
-                            <div class="d-flex align-items-center">
-                                <div class="flex-shrink-0">
-                                    <img src="img/icons/icon-phone-white.png" alt="...">
-                                </div>
-                                <div class="flex-grow-1 ms-3">
-                                    <p class="mb-0 text-white">Contact Us</p>
-                                    <h3 class="mb-0 h5 text-white"><a class="text-white" href="tel:+447745252094">+(44) 774-525-20-94</a></h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4 mt-1-9 text-start text-lg-center">
-                            <div class="footer-logo">
-                                <a href="index.html"><img src="img/logos/footer-light-logo.png" alt="..."></a>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4 mt-1-9">
-                            <div class="d-flex align-items-center text-lg-end">
-                                <div class="flex-grow-1 ms-3 ms-lg-0 me-lg-3 order-2 order-lg-1">
-                                    <p class="mb-0 text-white">Mail Us</p>
-                                    <h3 class="mb-0 h5 text-white"><a class="text-white" href="mailto:info@mutabalis.com">info@mutabalis.com</a></h3>
-                                </div>
-                                <div class="flex-shrink-0 order-1 order-lg-2">
-                                    <img src="img/icons/icon-mail-white.png" alt="...">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row mt-n5 pb-6 pb-xxl-10">
-                    <div class="col-md-6 col-lg-5 mt-5">
-                        <h3 class="text-white h5 mb-1-9">About Company</h3>
-                        <h4 class="text-white mb-1-9 fw-light w-75 display-27 lh-base opacity8">We have 14+ years
-                            experience. Helping you overcome security challenges.</h4>
-                        <ul class="social-icon-style1">
-                            <li>
-                                <a href="index-03.html#!"><i class="fab fa-facebook-f"></i></a>
-                            </li>
-                            <li>
-                                <a href="index-03.html#!"><i class="fab fa-twitter"></i></a>
-                            </li>
-                            <li>
-                                <a href="index-03.html#!"><i class="fab fa-linkedin-in"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-md-6 col-lg-3 mt-5">
-                        <div class="ps-0">
-                            <h3 class="text-white h5 mb-1-9">Contacts</h3>
-                            <ul class="footer-link mb-0 list-unstyled">
-                                <li class="text-white mb-3">
-                                    <strong>Adress:</strong> <span class="opacity8">4211 Webster Street Rahway, NJ
-                                        07065.</span>
-                                </li>
-                                <li class="text-white mb-3">
-                                    <strong>Email:</strong> <span class="opacity8"><a class="text-white" href="mailto:info@mutabalis.com">info@mutabalis.com</a></span>
-                                </li>
-                                <li class="text-white">
-                                    <strong>Phone:</strong> <span class="opacity8"><a class="text-white" href="tel:+447745252094">+(44) 774-525-20-94</a></span>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3 mt-5 offset-lg-1">
-                        <div class="ps-xl-4">
-                            <h3 class="text-white h5 mb-1-9">Newsletter</h3>
-                            <p class="text-white opacity8 mb-3">Subscribe to our newsletter to receive updates on the
-                                latest news!</p>
-                            <form class="quform newsletter-form"
-                                action="https://monityhtml.websitelayout.net/quform/newsletter-two.php" method="post"
-                                enctype="multipart/form-data" onclick="">
-
-                                <div class="quform-elements">
-                                    <div class="row">
-
-                                        <!-- Begin Text input element -->
-                                        <div class="col-md-12">
-                                            <div class="quform-element mb-0">
-                                                <div class="quform-input">
-                                                    <input class="form-control" id="email_address" type="text"
-                                                        name="email_address" placeholder="Subscribe with us">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- End Text input element -->
-
-                                        <!-- Begin Submit button -->
-                                        <div class="col-md-12">
-                                            <div class="quform-submit-inner">
-                                                <button class="btn btn-white text-white m-0" type="submit"><i
-                                                        class="fas fa-paper-plane"></i></button>
-                                            </div>
-                                            <div class="quform-loading-wrap"><span class="quform-loading"></span></div>
-                                        </div>
-                                        <!-- End Submit button -->
-                                    </div>
-
-                                </div>
-
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="py-4 border-top border-color-light-white">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-12 text-center">
-                            <p class="d-inline-block text-white mb-0">&copy; <span class="current-year"></span>
-                                Mutabalis Powered by <a href="index-03.html#!" class="text-secondary">Website Design
-                                    Templates</a></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
-
-    </div>
-    <!-- SCROLL TO TOP
-    ================================================== -->
-    <a href="index-03.html#!" class="scroll-to-top"><i class="fas fa-angle-up" aria-hidden="true"></i></a>
-
-    <!-- all js include start -->
-
-    <!-- jQuery -->
-    <script src="js/jquery.min.js"></script>
-
-    <!-- popper js -->
-    <script src="js/popper.min.js"></script>
-
-    <!-- bootstrap -->
-    <script src="js/bootstrap.min.js"></script>
-
-    <!-- jquery -->
-    <script src="js/core.min.js"></script>
-
-    <!-- search -->
-    <script src="search/search.js"></script>
-
-    <!-- custom scripts -->
-    <script src="js/main.js"></script>
-
-    <!-- form plugins js -->
-    <script src="quform/js/plugins.js"></script>
-
-    <!-- form scripts js -->
-    <script src="quform/js/scripts.js"></script>
-
-    <!-- all js include end -->
-
-</body>
-
-</html>
+<?php include 'footer.php'; ?>
