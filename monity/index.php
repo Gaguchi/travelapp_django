@@ -120,7 +120,7 @@
                     <h2 class="h1 mb-0 text-white">Our awesome services</h2>
                 </div>
                 <div class="row mt-n4 index-service-card-container">
-                    <div class="col-md-6 col-lg-4 mt-4 index-service-card">
+                    <div class="col-md-6 col-lg-4 mt-4 index-service-card" data-service="1">
                         <div class="card-style9">
                             <div class="card-body">
                                 <span class="big-text">01</span>
@@ -129,10 +129,11 @@
                                         class="text-white">Data Analytics</a></h3>
                                 <p class="mb-0 text-white opacity7">Development of dashboards, reporting tools and
                                     business intelligence.</p>
+                                <button class="expand-button butn-style03 white  sm">Expand</button>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 mt-4 index-service-card">
+                    <div class="col-md-6 col-lg-4 mt-4 index-service-card" data-service="2">
                         <div class="card-style9">
                             <div class="card-body">
                                 <span class="big-text">02</span>
@@ -144,7 +145,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 mt-4 index-service-card">
+                    <div class="col-md-6 col-lg-4 mt-4 index-service-card" data-service="3">
                         <div class="card-style9">
                             <div class="card-body">
                                 <span class="big-text">03</span>
@@ -156,7 +157,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 mt-4 index-service-card">
+                    <div class="col-md-6 col-lg-4 mt-4 index-service-card" data-service="4">
                         <div class="card-style9">
                             <div class="card-body">
                                 <span class="big-text">04</span>
@@ -168,7 +169,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 mt-4 index-service-card">
+                    <div class="col-md-6 col-lg-4 mt-4 index-service-card" data-service="5">
                         <div class="card-style9">
                             <div class="card-body">
                                 <span class="big-text">05</span>
@@ -180,7 +181,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 mt-4 index-service-card">
+                    <div class="col-md-6 col-lg-4 mt-4 index-service-card" data-service="6">
                         <div class="card-style9">
                             <div class="card-body">
                                 <span class="big-text">06</span>
