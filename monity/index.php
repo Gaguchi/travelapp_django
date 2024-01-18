@@ -119,8 +119,8 @@
                     <span class="sub-title">Our Services</span>
                     <h2 class="h1 mb-0 text-white">Our awesome services</h2>
                 </div>
-                <div class="row mt-n4">
-                    <div class="col-md-6 col-lg-4 mt-4">
+                <div class="row mt-n4 index-service-card-container">
+                    <div class="col-md-6 col-lg-4 mt-4 index-service-card">
                         <div class="card-style9">
                             <div class="card-body">
                                 <span class="big-text">01</span>
@@ -132,7 +132,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 mt-4">
+                    <div class="col-md-6 col-lg-4 mt-4 index-service-card">
                         <div class="card-style9">
                             <div class="card-body">
                                 <span class="big-text">02</span>
@@ -144,7 +144,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 mt-4">
+                    <div class="col-md-6 col-lg-4 mt-4 index-service-card">
                         <div class="card-style9">
                             <div class="card-body">
                                 <span class="big-text">03</span>
@@ -156,7 +156,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 mt-4">
+                    <div class="col-md-6 col-lg-4 mt-4 index-service-card">
                         <div class="card-style9">
                             <div class="card-body">
                                 <span class="big-text">04</span>
@@ -168,7 +168,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 mt-4">
+                    <div class="col-md-6 col-lg-4 mt-4 index-service-card">
                         <div class="card-style9">
                             <div class="card-body">
                                 <span class="big-text">05</span>
@@ -180,7 +180,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 mt-4">
+                    <div class="col-md-6 col-lg-4 mt-4 index-service-card">
                         <div class="card-style9">
                             <div class="card-body">
                                 <span class="big-text">06</span>

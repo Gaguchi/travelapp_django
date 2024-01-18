@@ -8372,3 +8372,14 @@ footer .phone a:focus {
     background-size: cover;
     animation-name: fadeIn;
 }
+
+.index-service-card {
+    transition: opacity 0.5s, max-height 0.5s;
+    max-height: 1000px; /* Adjust as needed */
+}
+
+.hidden {
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+}

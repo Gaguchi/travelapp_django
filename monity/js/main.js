@@ -13,14 +13,47 @@ $(".book").mouseenter(function(){
     $(this).parent(".book-wrap").addClass("rotate");
   });
   
-  $(".book").mouseleave(function(){
-    $(this).parent(".book-wrap").removeClass("rotate");
+$(".book").mouseleave(function(){
+  $(this).parent(".book-wrap").removeClass("rotate");
+});
+
+$(".book").click(function(){
+  $(this).parent(".book-wrap").addClass("flip");
+});
+
+$(".book-back").click(function(){
+  $(this).parent(".book-wrap").removeClass("flip");
+});
+
+const container = document.querySelector('.index-service-card-container'); // replace '.container' with the selector of your cards' container
+const cards = document.querySelectorAll('.index-service-card');
+const servicesElement = document.querySelector('#services');
+
+cards.forEach(card => {
+  card.addEventListener('click', function() {
+    if (this.classList.contains('col-12')) {
+      this.classList.remove('col-12');
+      this.classList.add('col-md-6', 'col-lg-4');
+
+      // Show other cards
+      cards.forEach(otherCard => {
+        if (otherCard !== this) {
+          otherCard.classList.remove('hidden');
+        }
+      });
+    } else {
+      this.classList.remove('col-md-6', 'col-lg-4');
+      this.classList.add('col-12');
+
+      // Hide other cards
+      cards.forEach(otherCard => {
+        if (otherCard !== this) {
+          otherCard.classList.add('hidden');
+        }
+      });
+
+      // Scroll to #services element
+      servicesElement.scrollIntoView({ behavior: 'smooth' });
+    }
   });
-  
-  $(".book").click(function(){
-    $(this).parent(".book-wrap").addClass("flip");
-  });
-  
-  $(".book-back").click(function(){
-    $(this).parent(".book-wrap").removeClass("flip");
-  });
+});
