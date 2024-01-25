@@ -2,13 +2,13 @@
 
         <!-- PAGE TITLE
         ================================================== -->
-        <section class="page-title-section bg-img cover-background top-position1" data-overlay-dark="5" data-background="img/icons/icon-09.png">
+        <section class="page-title-section bg-img cover-background top-position1" data-overlay-dark="5" data-background="img/blog/blog-04.jpg">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
                         <h1>Web Development & Web Scraping</h1>
                         <ul>
-                            <li><a href="index.html">Home</a></li>
+                            <li><a href="index.php">Home</a></li>
                             <li>Web Development & Web Scraping</li>
                         </ul>                    
                     </div>
@@ -34,37 +34,22 @@
                                 <div class="widget-body">
                                     <ul class="list-style4">
                                         <li>
-                                            <a href="work-force-planningg.html">Work Force Planning</a>
+                                            <a href="work-force-planningg.php">Work Force Planning</a>
                                         </li>
                                         <li>
-                                            <a href="etl.html">ETL Processes</a>
+                                            <a href="etl.php">ETL Processes</a>
                                         </li>
                                         <li>
-                                            <a href="classification-of-documents.html">Classification of Documents</a>
+                                            <a href="classification-of-documents.php">Classification of Documents</a>
                                         </li>
                                         <li class="active">
-                                            <a href="web-design.html">Wed Dev & Web Scraping</a>
+                                            <a href="web-design.php">Wed Dev & Web Scraping</a>
                                         </li>
                                         <li>
-                                            <a href="production-cost-optimisation-model.html">Production Cost Optimisation</a>
+                                            <a href="production-cost-optimisation-model.php">Production Cost Optimisation</a>
                                         </li>
                                         <li>
-                                            <a href="demand-and-capacity-planning.html">Demand & Capacity Planning</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </aside>
-                            <aside class="widget widget-brochure mb-1-6 wow fadeIn" data-wow-delay="150ms">
-                                <div class="widget-title">
-                                    <h4 class="title h6 mb-0">Brochures</h4>
-                                </div>
-                                <div class="widget-body">
-                                    <ul class="brochures">
-                                        <li>
-                                            <a href="cctv-installation.html#!"><i class="far fa-file-pdf"></i>Download.pdf</a>
-                                        </li>
-                                        <li class="mb-0 last">
-                                            <a href="cctv-installation.html#!"><i class="far fa-file-alt"></i>Download.txt</a>
+                                            <a href="demand-and-capacity-planning.php">Demand & Capacity Planning</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -106,7 +91,6 @@
                     </div>
                     <div class="col-lg-8 order-1 order-lg-2 mb-2-6 mb-lg-0">
                         <div class="detail-services">
-                            <img class="mb-2-6 border-radius-5 wow fadeIn" data-wow-delay="100ms" src="img/content/service-02.jpg" alt="...">
                             <div class="mb-1-6 wow fadeIn" data-wow-delay="200ms">
                                 <h3 class="h2 mb-3">Web Development & Web Scraping</h3>
                                 <p class="w-95">
@@ -121,7 +105,7 @@
                                         <div class="card-body">
                                             <span class="big-text">01</span>
                                             <div class="icon-box"><img src="img/icons/icon-py.png" alt="..."></div>
-                                            <h3 class="position-relative pb-3 mb-4 h5"><a href="finger-print-access.html"
+                                            <h3 class="position-relative pb-3 mb-4 h5"><a href="finger-print-access.php"
                                                     class="text-white">Efficient Web Scraping</a></h3>
                                             <p class="mb-0 text-white opacity7">Our Python-based system collected nationwide data with precision, emphasizing prices per kilogram.                                            </p>
                                         </div>
@@ -132,7 +116,7 @@
                                         <div class="card-body">
                                             <span class="big-text">02</span>
                                             <div class="icon-box"><img src="img/icons/icon-10.png" alt="..."></div>
-                                            <h3 class="position-relative pb-3 mb-4 h5"><a href="finger-print-access.html"
+                                            <h3 class="position-relative pb-3 mb-4 h5"><a href="finger-print-access.php"
                                                     class="text-white">Data Refinement</a></h3>
                                             <p class="mb-0 text-white opacity7">We refined and organized the dataset by regions, presenting prices per kilogram to industry standards.</p>
                                         </div>
@@ -143,7 +127,7 @@
                                         <div class="card-body">
                                             <span class="big-text">03</span>
                                             <div class="icon-box"><img src="img/icons/icon-react.png" alt="..."></div>
-                                            <h3 class="position-relative pb-3 mb-4 h5"><a href="finger-print-access.html"
+                                            <h3 class="position-relative pb-3 mb-4 h5"><a href="finger-print-access.php"
                                                     class="text-white">Portal</a></h3>
                                             <p class="mb-0 text-white opacity7">Crafting a user-friendly portal with Django backend and React frontend provided clients with an accessible platform for informed decision-making.</p>
                                         </div>
@@ -155,7 +139,7 @@
                                 <p class="w-95 mb-1-9">Looking ahead, our approach involves a strategic and iterative methodology. We aim to continually improve our web scraping capabilities, staying updated on evolving technologies for efficient and accurate data collection. Client collaboration will be key, guiding us to refine data processing methodologies for standardized outputs. Moreover, we plan to prioritize the seamless integration of user-friendly portals, leveraging advancements in backend and frontend technologies. This ensures our clients not only get precise information but also have intuitive platforms for decision-making.</p>
                                 <div class="row mt-n1-9">
                                     <div class="col-md-6 mt-1-9">
-                                        <div class="wow fadeIn steps-left" data-wow-delay="100ms" style="background-image: url(img/content/service-02.jpg);">
+                                        <div class="wow fadeIn steps-left" data-wow-delay="100ms" style="background-image: url(img/blog/blog-04.jpg);">
                                         </div>
                                     </div>
                                     <div class="col-md-6 mt-1-9">

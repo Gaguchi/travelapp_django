@@ -1,13 +1,13 @@
 <?php include 'header.php'; ?>
         <!-- PAGE TITLE
         ================================================== -->
-        <section class="page-title-section bg-img cover-background top-position1" data-overlay-dark="5" data-background="img/bg/bg-01.jpg">
+        <section class="page-title-section bg-img cover-background top-position1" data-overlay-dark="5" data-background="img/blog/blog-06.jpg">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
                         <h1>Demand & Capacity Planning</h1>
                         <ul>
-                            <li><a href="index.html">Home</a></li>
+                            <li><a href="index.php">Home</a></li>
                             <li>Demand & Capacity Planning</li>
                         </ul>                    
                     </div>
@@ -33,37 +33,22 @@
                                 <div class="widget-body">
                                     <ul class="list-style4">
                                         <li>
-                                            <a href="work-force-planning.html">Work Force Planning</a>
+                                            <a href="work-force-planning.php">Work Force Planning</a>
                                         </li>
                                         <li>
-                                            <a href="etl.html">ETL Processes</a>
+                                            <a href="etl.php">ETL Processes</a>
                                         </li>
                                         <li>
-                                            <a href="classification-of-documents.html">Classification of Documents</a>
+                                            <a href="classification-of-documents.php">Classification of Documents</a>
                                         </li>
                                         <li>
-                                            <a href="web-design.html">Wed Dev & Web Scraping</a>
+                                            <a href="web-design.php">Wed Dev & Web Scraping</a>
                                         </li>
                                         <li>
-                                            <a href="production-cost-optimisation-model.html">Production Cost Optimisation</a>
+                                            <a href="production-cost-optimisation-model.php">Production Cost Optimisation</a>
                                         </li>
                                         <li class="active">
-                                            <a href="demand-and-capacity-planning.html">Demand & Capacity Planning</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </aside>
-                            <aside class="widget widget-brochure mb-1-6 wow fadeIn" data-wow-delay="150ms">
-                                <div class="widget-title">
-                                    <h4 class="title h6 mb-0">Brochures</h4>
-                                </div>
-                                <div class="widget-body">
-                                    <ul class="brochures">
-                                        <li>
-                                            <a href="cctv-installation.html#!"><i class="far fa-file-pdf"></i>Download.pdf</a>
-                                        </li>
-                                        <li class="mb-0 last">
-                                            <a href="cctv-installation.html#!"><i class="far fa-file-alt"></i>Download.txt</a>
+                                            <a href="demand-and-capacity-planning.php">Demand & Capacity Planning</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -105,7 +90,6 @@
                     </div>
                     <div class="col-lg-8 order-1 order-lg-2 mb-2-6 mb-lg-0">
                         <div class="detail-services">
-                            <img class="mb-2-6 border-radius-5 wow fadeIn" data-wow-delay="100ms" src="img/content/service-02.jpg" alt="...">
                             <div class="mb-1-6 wow fadeIn" data-wow-delay="200ms">
                                 <h3 class="h2 mb-3">Demand & Capacity Planning</h3>
                                 <p class="w-95">
@@ -120,7 +104,7 @@
                                         <div class="card-body">
                                             <span class="big-text">01</span>
                                             <div class="icon-box"><img src="img/icons/icon-py.png" alt="..."></div>
-                                            <h3 class="position-relative pb-3 mb-4 h5"><a href="finger-print-access.html"
+                                            <h3 class="position-relative pb-3 mb-4 h5"><a href="finger-print-access.php"
                                                     class="text-white">Demand and Capacity Modeling</a></h3>
                                             <p class="mb-0 text-white opacity7">Our team developed a sophisticated demand and capacity model tailored for London hospitals, ensuring precise reporting and forecasting capabilities.</p>
                                         </div>
@@ -131,7 +115,7 @@
                                         <div class="card-body">
                                             <span class="big-text">02</span>
                                             <div class="icon-box"><img src="img/icons/icon-10.png" alt="..."></div>
-                                            <h3 class="position-relative pb-3 mb-4 h5"><a href="finger-print-access.html"
+                                            <h3 class="position-relative pb-3 mb-4 h5"><a href="finger-print-access.php"
                                                     class="text-white">Data Reporting and Forecasting</a></h3>
                                             <p class="mb-0 text-white opacity7">The model enabled detailed reporting and forecasting of bed and attendance requirements, offering insights by region, site, and clinical specialty.</p>
                                         </div>
@@ -142,7 +126,7 @@
                                         <div class="card-body">
                                             <span class="big-text">03</span>
                                             <div class="icon-box"><img src="img/icons/icon-react.png" alt="..."></div>
-                                            <h3 class="position-relative pb-3 mb-4 h5"><a href="finger-print-access.html"
+                                            <h3 class="position-relative pb-3 mb-4 h5"><a href="finger-print-access.php"
                                                     class="text-white">Demographic Subset Analysis</a></h3>
                                             <p class="mb-0 text-white opacity7">Covering over 2.5 million patients, our model provided a granular breakdown of demographic subsets, facilitating targeted planning for diverse patient needs.</p>
                                         </div>
@@ -154,7 +138,7 @@
                                 <p class="w-95 mb-1-9">For future demand and capacity planning projects, the approach begins with a comprehensive scope evaluation. We will refine modeling techniques, incorporating the latest advancements for increased accuracy and granularity. Client collaboration remains pivotal, ensuring the model aligns closely with evolving requirements. Additionally, focus extends to expanding capabilities in demographic subset analysis for more targeted insights.</p>
                                 <div class="row mt-n1-9">
                                     <div class="col-md-6 mt-1-9">
-                                        <div class="wow fadeIn steps-left" data-wow-delay="100ms" style="background-image: url(img/content/service-02.jpg);">
+                                        <div class="wow fadeIn steps-left" data-wow-delay="100ms" style="background-image: url(img/blog/blog-06.jpg);">
                                         </div>
                                     </div>
                                     <div class="col-md-6 mt-1-9">

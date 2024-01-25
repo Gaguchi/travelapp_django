@@ -8403,3 +8403,34 @@ footer .phone a:focus {
         transform: rotateY(0deg);
     }
 }
+
+.service-details-sidebar .contact-icons {
+    display: flex;
+    color: #fff;
+    background: #fcaf17;
+    font-size: 25px;
+    min-width: 50px;
+    border-radius: 5px;
+    min-height: 50px;
+    text-align: center;
+    line-height: 50px;
+    transition: all 0.45s ease-out;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icon-style1 li a {
+    text-align: center;
+    display: flex !important;
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+    font-size: 14px;
+    border-radius: 5px;
+    display: inline-block;
+    background: rgba(225, 225, 225, 0.1);
+    color: #fff;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}

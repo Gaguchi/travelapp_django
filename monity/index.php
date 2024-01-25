@@ -129,7 +129,7 @@
                                         class="text-white">Data Analytics</a></h3>
                                 <p class="mb-0 text-white opacity7">Development of dashboards, reporting tools and
                                     business intelligence.</p>
-                                <button class="expand-button butn-style03 white  sm">Expand</button>
+                                <button class="expand-button butn-style03 white sm mt-3">Expand</button>
                             </div>
                         </div>
                     </div>
@@ -142,6 +142,7 @@
                                         class="text-white">Statistical modeling</a></h3>
                                 <p class="mb-0 text-white opacity7">building statistical models and time series
                                     forecasts to predict future trends.</p>
+                                <button class="expand-button butn-style03 white sm mt-3">Expand</button>
                             </div>
                         </div>
                     </div>
@@ -154,6 +155,7 @@
                                         class="text-white">Data warehousing solutions</a></h3>
                                 <p class="mb-0 text-white opacity7">offering data engineering and warehouse solutions.
                                 </p>
+                                <button class="expand-button butn-style03 white sm mt-3">Expand</button>
                             </div>
                         </div>
                     </div>
@@ -166,6 +168,7 @@
                                         class="text-white">Machine learning</a></h3>
                                 <p class="mb-0 text-white opacity7">developing machine learning models to predict future
                                     customer behavior.</p>
+                                <button class="expand-button butn-style03 white sm mt-3">Expand</button>
                             </div>
                         </div>
                     </div>
@@ -178,6 +181,7 @@
                                         class="text-white">Customer segmentation tools</a></h3>
                                 <p class="mb-0 text-white opacity7">using clustering algorithms to group customers based
                                     on similarities for targeted marketing campaigns.</p>
+                                <button class="expand-button butn-style03 white sm mt-3">Expand</button>
                             </div>
                         </div>
                     </div>
@@ -190,6 +194,7 @@
                                         class="text-white">Web design and SEO</a></h3>
                                 <p class="mb-0 text-white opacity7">analysis of website traffic for greater customer
                                     insights.</p>
+                                <button class="expand-button butn-style03 white sm mt-3">Expand</button>
                             </div>
                         </div>
                     </div>
