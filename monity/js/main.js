@@ -86,19 +86,109 @@ cards.forEach(card => {
         `;
           break;
         case 2:
-          cardBody.innerHTML = 'New contents for service 2 go here';
+          cardBody.innerHTML = `
+          <span class="big-text">02</span>
+          <div class="icon-box"><img src="img/icons/icon-12.png" alt="..."></div>
+          <h3 class="position-relative pb-3 mb-4 h5"><a href="#" class="text-white">Statistical analysis</a></h3>
+          <p class="mb-0 text-white">Ready to supercharge your decision-making process? Look no further! we specialize in delivering powerful data analytics, interactive dashboards, and Business Intelligence (BI) tools that elevate your business strategies.</p>
+          <h3 class="position-relative pb-3 mb-4 mt-4 h6"><a href="finger-print-access.php" class="text-white">Explore Our Dynamic Use Cases:</a></h3>
+          <ol>
+              <li><strong>Data Analysis Excellence:</strong> Uncover actionable insights with our robust data analysis solutions. From market trends to customer behaviours, we turn raw data into strategic advantages.</li>
+              <li><strong>Interactive Dashboards:</strong> Visualize success! Our interactive dashboards provide real-time, user-friendly snapshots of your key metrics. Make informed decisions at a glance.</li>
+              <li><strong>Business Intelligence Tools:</strong> Drive efficiency with our BI tools. Transform complex data into accessible, understandable information, empowering your teams to perform at their best.</li>
+              <li><strong>Custom Solutions for Your Industry:</strong> Tailored to perfection. We understand the unique challenges of your industry and craft bespoke solutions to meet your specific needs.</li>
+          </ol>
+          <h3 class="position-relative pb-3 mb-4 mt-4 h6"><a href="finger-print-access.php" class="text-white">Why Choose Mutabalis?</a></h3>
+            <ul>
+              <li>Expert Data Analysts: Our skilled team turns data into actionable insights, unlocking the full potential of your information.</li>
+              <li>Intuitive Dashboards: Experience the power of visual data representation with our user-friendly, interactive dashboards.</li>
+              <li>Comprehensive BI Tools: Transform your data into strategic assets with our cutting-edge Business Intelligence tools.</li>
+            </ul>  
+            <button class="back-button">Back</button>`;
           break;
         case 3:
-          cardBody.innerHTML = 'New contents for service 3 go here';
+          cardBody.innerHTML = `
+          <span class="big-text">03</span>
+          <div class="icon-box"><img src="img/icons/icon-11.png" alt="..."></div>
+          <h3 class="position-relative pb-3 mb-4 h5"><a href="finger-print-access.php" class="text-white">Data Analytics</a></h3>
+          <p class="mb-0 text-white">Ready to supercharge your decision-making process? Look no further! we specialize in delivering powerful data analytics, interactive dashboards, and Business Intelligence (BI) tools that elevate your business strategies.</p>
+          <h3 class="position-relative pb-3 mb-4 mt-4 h6"><a href="finger-print-access.php" class="text-white">Explore Our Dynamic Use Cases:</a></h3>
+          <ol>
+              <li><strong>Data Analysis Excellence:</strong> Uncover actionable insights with our robust data analysis solutions. From market trends to customer behaviours, we turn raw data into strategic advantages.</li>
+              <li><strong>Interactive Dashboards:</strong> Visualize success! Our interactive dashboards provide real-time, user-friendly snapshots of your key metrics. Make informed decisions at a glance.</li>
+              <li><strong>Business Intelligence Tools:</strong> Drive efficiency with our BI tools. Transform complex data into accessible, understandable information, empowering your teams to perform at their best.</li>
+              <li><strong>Custom Solutions for Your Industry:</strong> Tailored to perfection. We understand the unique challenges of your industry and craft bespoke solutions to meet your specific needs.</li>
+          </ol>
+          <h3 class="position-relative pb-3 mb-4 mt-4 h6"><a href="finger-print-access.php" class="text-white">Why Choose Mutabalis?</a></h3>
+            <ul>
+              <li>Expert Data Analysts: Our skilled team turns data into actionable insights, unlocking the full potential of your information.</li>
+              <li>Intuitive Dashboards: Experience the power of visual data representation with our user-friendly, interactive dashboards.</li>
+              <li>Comprehensive BI Tools: Transform your data into strategic assets with our cutting-edge Business Intelligence tools.</li>
+            </ul>  
+            <button class="back-button">Back</button>`;
           break;
         case 4:
-          cardBody.innerHTML = 'New contents for service 4 go here';
+          cardBody.innerHTML = `
+          <span class="big-text">04</span>
+          <div class="icon-box"><img src="img/icons/icon-13.png" alt="..."></div>
+          <h3 class="position-relative pb-3 mb-4 h5"><a href="finger-print-access.php" class="text-white">Data Analytics</a></h3>
+          <p class="mb-0 text-white">Ready to supercharge your decision-making process? Look no further! we specialize in delivering powerful data analytics, interactive dashboards, and Business Intelligence (BI) tools that elevate your business strategies.</p>
+          <h3 class="position-relative pb-3 mb-4 mt-4 h6"><a href="finger-print-access.php" class="text-white">Explore Our Dynamic Use Cases:</a></h3>
+          <ol>
+              <li><strong>Data Analysis Excellence:</strong> Uncover actionable insights with our robust data analysis solutions. From market trends to customer behaviours, we turn raw data into strategic advantages.</li>
+              <li><strong>Interactive Dashboards:</strong> Visualize success! Our interactive dashboards provide real-time, user-friendly snapshots of your key metrics. Make informed decisions at a glance.</li>
+              <li><strong>Business Intelligence Tools:</strong> Drive efficiency with our BI tools. Transform complex data into accessible, understandable information, empowering your teams to perform at their best.</li>
+              <li><strong>Custom Solutions for Your Industry:</strong> Tailored to perfection. We understand the unique challenges of your industry and craft bespoke solutions to meet your specific needs.</li>
+          </ol>
+          <h3 class="position-relative pb-3 mb-4 mt-4 h6"><a href="finger-print-access.php" class="text-white">Why Choose Mutabalis?</a></h3>
+            <ul>
+              <li>Expert Data Analysts: Our skilled team turns data into actionable insights, unlocking the full potential of your information.</li>
+              <li>Intuitive Dashboards: Experience the power of visual data representation with our user-friendly, interactive dashboards.</li>
+              <li>Comprehensive BI Tools: Transform your data into strategic assets with our cutting-edge Business Intelligence tools.</li>
+            </ul>  
+            <button class="back-button">Back</button>`;
           break;
         case 5:
-          cardBody.innerHTML = 'New contents for service 5 go here';
+          cardBody.innerHTML = `
+          <span class="big-text">05</span>
+          <div class="icon-box"><img src="img/icons/icon-08.png" alt="..."></div>
+          <h3 class="position-relative pb-3 mb-4 h5"><a href="finger-print-access.php" class="text-white">Data Analytics</a></h3>
+          <p class="mb-0 text-white">Ready to supercharge your decision-making process? Look no further! we specialize in delivering powerful data analytics, interactive dashboards, and Business Intelligence (BI) tools that elevate your business strategies.</p>
+          <h3 class="position-relative pb-3 mb-4 mt-4 h6"><a href="finger-print-access.php" class="text-white">Explore Our Dynamic Use Cases:</a></h3>
+          <ol>
+              <li><strong>Data Analysis Excellence:</strong> Uncover actionable insights with our robust data analysis solutions. From market trends to customer behaviours, we turn raw data into strategic advantages.</li>
+              <li><strong>Interactive Dashboards:</strong> Visualize success! Our interactive dashboards provide real-time, user-friendly snapshots of your key metrics. Make informed decisions at a glance.</li>
+              <li><strong>Business Intelligence Tools:</strong> Drive efficiency with our BI tools. Transform complex data into accessible, understandable information, empowering your teams to perform at their best.</li>
+              <li><strong>Custom Solutions for Your Industry:</strong> Tailored to perfection. We understand the unique challenges of your industry and craft bespoke solutions to meet your specific needs.</li>
+          </ol>
+          <h3 class="position-relative pb-3 mb-4 mt-4 h6"><a href="finger-print-access.php" class="text-white">Why Choose Mutabalis?</a></h3>
+            <ul>
+              <li>Expert Data Analysts: Our skilled team turns data into actionable insights, unlocking the full potential of your information.</li>
+              <li>Intuitive Dashboards: Experience the power of visual data representation with our user-friendly, interactive dashboards.</li>
+              <li>Comprehensive BI Tools: Transform your data into strategic assets with our cutting-edge Business Intelligence tools.</li>
+            </ul>  
+            <button class="back-button">Back</button>`;
           break;
         case 6:
-          cardBody.innerHTML = 'New contents for service 6 go here';
+          cardBody.innerHTML = `
+          <span class="big-text">06</span>
+          <div class="icon-box"><img src="img/icons/icon-09.png" alt="..."></div>
+          <h3 class="position-relative pb-3 mb-4 h5"><a href="finger-print-access.php" class="text-white">Data Analytics</a></h3>
+          <p class="mb-0 text-white">Ready to supercharge your decision-making process? Look no further! we specialize in delivering powerful data analytics, interactive dashboards, and Business Intelligence (BI) tools that elevate your business strategies.</p>
+          <h3 class="position-relative pb-3 mb-4 mt-4 h6"><a href="finger-print-access.php" class="text-white">Explore Our Dynamic Use Cases:</a></h3>
+          <ol>
+              <li><strong>Data Analysis Excellence:</strong> Uncover actionable insights with our robust data analysis solutions. From market trends to customer behaviours, we turn raw data into strategic advantages.</li>
+              <li><strong>Interactive Dashboards:</strong> Visualize success! Our interactive dashboards provide real-time, user-friendly snapshots of your key metrics. Make informed decisions at a glance.</li>
+              <li><strong>Business Intelligence Tools:</strong> Drive efficiency with our BI tools. Transform complex data into accessible, understandable information, empowering your teams to perform at their best.</li>
+              <li><strong>Custom Solutions for Your Industry:</strong> Tailored to perfection. We understand the unique challenges of your industry and craft bespoke solutions to meet your specific needs.</li>
+          </ol>
+          <h3 class="position-relative pb-3 mb-4 mt-4 h6"><a href="finger-print-access.php" class="text-white">Why Choose Mutabalis?</a></h3>
+            <ul>
+              <li>Expert Data Analysts: Our skilled team turns data into actionable insights, unlocking the full potential of your information.</li>
+              <li>Intuitive Dashboards: Experience the power of visual data representation with our user-friendly, interactive dashboards.</li>
+              <li>Comprehensive BI Tools: Transform your data into strategic assets with our cutting-edge Business Intelligence tools.</li>
+            </ul>  
+            <button class="back-button">Back</button>`;
           break;
         default:
           cardBody.innerHTML = 'New contents go here';
