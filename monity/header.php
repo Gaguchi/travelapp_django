@@ -13,9 +13,11 @@
 
     <!-- title  -->
     <title>Mutabalis</title>
+    <link rel="shortcut icon" href="img/icons/favicon.ico">
 
     <!-- favicon -->
-    <link rel="shortcut icon" href="img/logos/favicon.png" />
+    <link rel="icon" type="image/x-icon" href="img/icons/favicon.ico">
+    <link rel="shortcut icon" href="img/logos/favicon.ico" />
     <link rel="apple-touch-icon" href="img/logos/apple-touch-icon-57x57.png" />
     <link rel="apple-touch-icon" sizes="72x72" href="img/logos/apple-touch-icon-72x72.png" />
     <link rel="apple-touch-icon" sizes="114x114" href="img/logos/apple-touch-icon-114x114.png" />
@@ -86,18 +88,18 @@
                                     <ul class="navbar-nav align-items-lg-center ms-auto" id="nav"
                                         style="display: none;">
                                         <li>
-                                            <a href="#banner">Home</a>
+                                            <a href="index.php#banner">Home</a>
                                         </li>
                                         <li>
-                                            <a href="#about-us">About</a>
+                                            <a href="index.php#about-us">About</a>
                                         </li>
-                                        <li><a href="#services">Services</a>
-                                        </li>
-                                        <li>
-                                            <a href="#projects">Projects</a>
+                                        <li><a href="index.php#services">Services</a>
                                         </li>
                                         <li>
-                                            <a href="#footer">Contact us</a>
+                                            <a href="index.php#projects">Projects</a>
+                                        </li>
+                                        <li>
+                                            <a href="index.php#footer">Contact us</a>
                                         </li>
                                     </ul>
                                     <!-- end menu area -->

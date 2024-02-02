@@ -61,49 +61,6 @@
                             </div>
                             <h2 class="h1 mb-lg-1-9">What we do?</h2>
                             <p class="mb-1-9">We solve data problems and offer business insight solutions. From data cleansing to ETL processes, dashboards to machine learning algorithms our goal is to engineer the solutions that enable your business to leverage the power of its data to give you a competitive advantage.</p>
-                                <div class="row mt-n1-9 mb-1-9">
-                                    <div class="col-md-6 mt-1-9">
-                                        <div class="d-flex align-items-center">
-                                            <div class="flex-shrink-0">
-                                                <img src="{% static 'homepage/img/icons/icon-30.png' %}" alt="...">
-                                            </div>
-                                            <div class="flex-grow-1 ms-3">
-                                                <h4 class="h6 mb-0">Data Analytics</h4>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 mt-1-9">
-                                        <div class="d-flex align-items-center">
-                                            <div class="flex-shrink-0">
-                                                <img src="{% static 'homepage/img/icons/icon-31.png' %}" alt="...">
-                                            </div>
-                                            <div class="flex-grow-1 ms-3">
-                                                <h4 class="h6 mb-0">Statistical modelling
-                                                </h4>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 mt-1-9">
-                                        <div class="d-flex align-items-center">
-                                            <div class="flex-shrink-0">
-                                                <img src="{% static 'homepage/img/icons/icon-32.png' %}" alt="...">
-                                            </div>
-                                            <div class="flex-grow-1 ms-3">
-                                                <h4 class="h6 mb-0">Data warehousing solutions</h4>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 mt-1-9">
-                                        <div class="d-flex align-items-center">
-                                            <div class="flex-shrink-0">
-                                                <img src="{% static 'homepage/img/icons/icon-33.png' %}" alt="...">
-                                            </div>
-                                            <div class="flex-grow-1 ms-3">
-                                                <h4 class="h6 mb-0">Machine learning</h4>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
                                 <a href="about-us.php" class="butn-style03">Read More</a>
                         </div>
                     </div>

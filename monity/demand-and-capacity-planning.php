@@ -62,7 +62,7 @@
                                             </div>
                                             <div class="flex-grow-1 ms-3 ms-lg-4">
                                                 <h4 class="h5 mb-1 text-white">Call Us</h4>
-                                                <p class="mb-0 text-white">(+44) 123 456 7892</p>
+                                                <p class="mb-0 text-white"><a class="text-white" href="tel:02035764931">0203 576 4931</a></p>
                                             </div>
                                         </div>
                                         <div class="d-flex mb-4">
@@ -71,16 +71,7 @@
                                             </div>
                                             <div class="flex-grow-1 ms-3 ms-lg-4">
                                                 <h4 class="h5 mb-1 text-white">Email</h4>
-                                                <p class="mb-0 text-white">addyour@emailhere</p>
-                                            </div>
-                                        </div>
-                                        <div class="d-flex">
-                                            <div class="flex-shrink-0">
-                                                <div class="contact-icons"><i class="fas fa-map-marker-alt"></i></div>
-                                            </div>
-                                            <div class="flex-grow-1 ms-3 ms-lg-4">
-                                                <h4 class="h5 mb-1 text-white">Location</h4>
-                                                <p class="mb-0 text-white">66 Guild Street 512, UK</p>
+                                                <p class="mb-0 text-white"><a class="text-white" href="mailto:info@mutabalis.com">info@mutabalis.com</a></p>
                                             </div>
                                         </div>
                                     </div>

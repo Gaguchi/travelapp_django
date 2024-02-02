@@ -1,7 +1,7 @@
         <!-- FOOTER
         ================================================== -->
         <footer class="position-relative pt-0 bg-dark" id="footer">
-            <div class="bg-secondary py-1-9 mb-6 mb-xxl-10">
+            <div class="bg-secondary py-1-9 mb-3 mb-xxl-10">
                 <div class="container">
                     <div class="row mt-n1-9 align-items-center">
                         <div class="col-md-6 col-lg-4 mt-1-9">
@@ -11,7 +11,7 @@
                                 </div>
                                 <div class="flex-grow-1 ms-3">
                                     <p class="mb-0 text-white">Contact Us</p>
-                                    <h3 class="mb-0 h5 text-white"><a class="text-white" href="tel:+447745252094">+(44) 774-525-20-94</a></h3>
+                                    <h3 class="mb-0 h6 text-white"><a class="text-white" href="tel:02035764931">0203 576 4931</a></h3>
                                 </div>
                             </div>
                         </div>
@@ -24,7 +24,7 @@
                             <div class="d-flex align-items-center text-lg-end">
                                 <div class="flex-grow-1 ms-3 ms-lg-0 me-lg-3 order-2 order-lg-1">
                                     <p class="mb-0 text-white">Mail Us</p>
-                                    <h3 class="mb-0 h5 text-white"><a class="text-white" href="mailto:info@mutabalis.com">info@mutabalis.com</a></h3>
+                                    <h3 class="mb-0 h6 text-white"><a class="text-white" href="mailto:info@mutabalis.com">info@mutabalis.com</a></h3>
                                 </div>
                                 <div class="flex-shrink-0 order-1 order-lg-2">
                                     <img src="img/icons/icon-mail-white.png" alt="...">
@@ -38,8 +38,8 @@
                 <div class="row mt-n5 pb-6 pb-xxl-10">
                     <div class="col-md-6 col-lg-5 mt-5">
                         <h3 class="text-white h5 mb-1-9">About Company</h3>
-                        <h4 class="text-white mb-1-9 fw-light w-75 display-27 lh-base opacity8">We have 14+ years
-                            experience. Helping you overcome security challenges.</h4>
+                        <h4 class="text-white mb-1-9 fw-light w-75 display-27 lh-base opacity8">We have 20+ years
+                            experience. Helping create data driven solutions.</h4>
                         <ul class="social-icon-style1">
                             <li>
                                 <a href="index-03.php#!"><i class="fab fa-facebook-f"></i></a>
@@ -57,14 +57,10 @@
                             <h3 class="text-white h5 mb-1-9">Contacts</h3>
                             <ul class="footer-link mb-0 list-unstyled">
                                 <li class="text-white mb-3">
-                                    <strong>Adress:</strong> <span class="opacity8">4211 Webster Street Rahway, NJ
-                                        07065.</span>
-                                </li>
-                                <li class="text-white mb-3">
                                     <strong>Email:</strong> <span class="opacity8"><a class="text-white" href="mailto:info@mutabalis.com">info@mutabalis.com</a></span>
                                 </li>
                                 <li class="text-white">
-                                    <strong>Phone:</strong> <span class="opacity8"><a class="text-white" href="tel:+447745252094">+(44) 774-525-20-94</a></span>
+                                    <strong>Phone:</strong> <span class="opacity8"><a class="text-white" href="tel:02035764931">0203 576 4931</a></span>
                                 </li>
                             </ul>
                         </div>
