@@ -34,7 +34,7 @@
                                 <div class="widget-body">
                                     <ul class="list-style4">
                                         <li>
-                                            <a href="work-force-planningg.php">Work Force Planning</a>
+                                            <a href="work-force-planning.php">Work Force Planning</a>
                                         </li>
                                         <li>
                                             <a href="etl.php">ETL Processes</a>
@@ -66,7 +66,7 @@
                                                 <p class="mb-0 text-white"><a class="text-white" href="tel:02035764931">0203 576 4931</a></p>
                                             </div>
                                         </div>
-                                        <div class="d-flex mb-4">
+                                        <div class="d-flex">
                                             <div class="flex-shrink-0">
                                                 <div class="contact-icons"><i class="ti-email"></i></div>
                                             </div>
@@ -96,7 +96,7 @@
                                         <div class="card-body">
                                             <span class="big-text">01</span>
                                             <div class="icon-box"><img src="img/icons/icon-py.png" alt="..."></div>
-                                            <h3 class="position-relative pb-3 mb-4 h5"><a href="finger-print-access.php"
+                                            <h3 class="position-relative pb-3 mb-4 h5"><a href="#"
                                                     class="text-white">Efficient Web Scraping</a></h3>
                                             <p class="mb-0 text-white opacity7">Our Python-based system collected nationwide data with precision, emphasizing prices per kilogram.                                            </p>
                                         </div>
@@ -107,7 +107,7 @@
                                         <div class="card-body">
                                             <span class="big-text">02</span>
                                             <div class="icon-box"><img src="img/icons/icon-10.png" alt="..."></div>
-                                            <h3 class="position-relative pb-3 mb-4 h5"><a href="finger-print-access.php"
+                                            <h3 class="position-relative pb-3 mb-4 h5"><a href="#"
                                                     class="text-white">Data Refinement</a></h3>
                                             <p class="mb-0 text-white opacity7">We refined and organized the dataset by regions, presenting prices per kilogram to industry standards.</p>
                                         </div>
@@ -118,7 +118,7 @@
                                         <div class="card-body">
                                             <span class="big-text">03</span>
                                             <div class="icon-box"><img src="img/icons/icon-react.png" alt="..."></div>
-                                            <h3 class="position-relative pb-3 mb-4 h5"><a href="finger-print-access.php"
+                                            <h3 class="position-relative pb-3 mb-4 h5"><a href="#"
                                                     class="text-white">Portal</a></h3>
                                             <p class="mb-0 text-white opacity7">Crafting a user-friendly portal with Django backend and React frontend provided clients with an accessible platform for informed decision-making.</p>
                                         </div>

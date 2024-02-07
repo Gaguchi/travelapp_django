@@ -65,7 +65,7 @@
                                                 <p class="mb-0 text-white"><a class="text-white" href="tel:02035764931">0203 576 4931</a></p>
                                             </div>
                                         </div>
-                                        <div class="d-flex mb-4">
+                                        <div class="d-flex">
                                             <div class="flex-shrink-0">
                                                 <div class="contact-icons"><i class="ti-email"></i></div>
                                             </div>
@@ -94,8 +94,8 @@
                                     <div class="card-style9">
                                         <div class="card-body">
                                             <span class="big-text">01</span>
-                                            <div class="icon-box"><img src="img/icons/icon-py.png" alt="..."></div>
-                                            <h3 class="position-relative pb-3 mb-4 h5"><a href="finger-print-access.php"
+                                            <div class="icon-box"><img src="/img/icons/icon-capacity.png" alt="..."></div>
+                                            <h3 class="position-relative pb-3 mb-4 h5"><a href="#"
                                                     class="text-white">Demand and Capacity Modeling</a></h3>
                                             <p class="mb-0 text-white opacity7">Our team developed a sophisticated demand and capacity model tailored for London hospitals, ensuring precise reporting and forecasting capabilities.</p>
                                         </div>
@@ -105,8 +105,8 @@
                                     <div class="card-style9">
                                         <div class="card-body">
                                             <span class="big-text">02</span>
-                                            <div class="icon-box"><img src="img/icons/icon-10.png" alt="..."></div>
-                                            <h3 class="position-relative pb-3 mb-4 h5"><a href="finger-print-access.php"
+                                            <div class="icon-box"><img src="/img/icons/icon-forecast.png" alt="..."></div>
+                                            <h3 class="position-relative pb-3 mb-4 h5"><a href="#"
                                                     class="text-white">Data Reporting and Forecasting</a></h3>
                                             <p class="mb-0 text-white opacity7">The model enabled detailed reporting and forecasting of bed and attendance requirements, offering insights by region, site, and clinical specialty.</p>
                                         </div>
@@ -116,8 +116,8 @@
                                     <div class="card-style9">
                                         <div class="card-body">
                                             <span class="big-text">03</span>
-                                            <div class="icon-box"><img src="img/icons/icon-react.png" alt="..."></div>
-                                            <h3 class="position-relative pb-3 mb-4 h5"><a href="finger-print-access.php"
+                                            <div class="icon-box"><img src="/img/icons/icon-08.png" alt="..."></div>
+                                            <h3 class="position-relative pb-3 mb-4 h5"><a href="#"
                                                     class="text-white">Demographic Subset Analysis</a></h3>
                                             <p class="mb-0 text-white opacity7">Covering over 2.5 million patients, our model provided a granular breakdown of demographic subsets, facilitating targeted planning for diverse patient needs.</p>
                                         </div>

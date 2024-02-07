@@ -66,7 +66,7 @@
                                                 <p class="mb-0 text-white"><a class="text-white" href="tel:02035764931">0203 576 4931</a></p>
                                             </div>
                                         </div>
-                                        <div class="d-flex mb-4">
+                                        <div class="d-flex">
                                             <div class="flex-shrink-0">
                                                 <div class="contact-icons"><i class="ti-email"></i></div>
                                             </div>
@@ -95,8 +95,8 @@
                                     <div class="card-style9">
                                         <div class="card-body">
                                             <span class="big-text">01</span>
-                                            <div class="icon-box"><img src="img/icons/icon-py.png" alt="..."></div>
-                                            <h3 class="position-relative pb-3 mb-4 h5"><a href="finger-print-access.php"
+                                            <div class="icon-box"><img src="/img/icons/icon-etl.png" alt="..."></div>
+                                            <h3 class="position-relative pb-3 mb-4 h5"><a href="#"
                                                     class="text-white">Data Extraction and Transformation</a></h3>
                                             <p class="mb-0 text-white opacity7">Executed the extraction, cleaning, and transformation of semi-structured data for the UK automobile manufacturer, ensuring data integrity and relevance.</p>
                                         </div>
@@ -106,8 +106,8 @@
                                     <div class="card-style9">
                                         <div class="card-body">
                                             <span class="big-text">02</span>
-                                            <div class="icon-box"><img src="img/icons/icon-10.png" alt="..."></div>
-                                            <h3 class="position-relative pb-3 mb-4 h5"><a href="finger-print-access.php"
+                                            <div class="icon-box"><img src="/img/icons/icon-bigquery.png" alt="..."></div>
+                                            <h3 class="position-relative pb-3 mb-4 h5"><a href="#"
                                                     class="text-white">Loading into Google BigQuery</a></h3>
                                             <p class="mb-0 text-white opacity7">Facilitated the loading of processed data into Google BigQuery, providing a scalable platform for comprehensive analysis.</p>
                                         </div>
@@ -117,8 +117,8 @@
                                     <div class="card-style9">
                                         <div class="card-body">
                                             <span class="big-text">03</span>
-                                            <div class="icon-box"><img src="img/icons/icon-react.png" alt="..."></div>
-                                            <h3 class="position-relative pb-3 mb-4 h5"><a href="finger-print-access.php"
+                                            <div class="icon-box"><img src="/img/icons/icon-team.png" alt="..."></div>
+                                            <h3 class="position-relative pb-3 mb-4 h5"><a href="#"
                                                     class="text-white">Cross-Team Collaboration</a></h3>
                                             <p class="mb-0 text-white opacity7">Worked collaboratively with disparate teams across different countries, time zones, and jurisdictions to ensure the success of the data extraction and analysis project.</p>
                                         </div>

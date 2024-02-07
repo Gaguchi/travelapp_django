@@ -66,7 +66,7 @@
                                                 <p class="mb-0 text-white"><a class="text-white" href="tel:02035764931">0203 576 4931</a></p>
                                             </div>
                                         </div>
-                                        <div class="d-flex mb-4">
+                                        <div class="d-flex">
                                             <div class="flex-shrink-0">
                                                 <div class="contact-icons"><i class="ti-email"></i></div>
                                             </div>
@@ -95,8 +95,8 @@
                                     <div class="card-style9">
                                         <div class="card-body">
                                             <span class="big-text">01</span>
-                                            <div class="icon-box"><img src="img/icons/icon-py.png" alt="..."></div>
-                                            <h3 class="position-relative pb-3 mb-4 h5"><a href="finger-print-access.php"
+                                            <div class="icon-box"><img src="/img/icons/icon-forecast.png" alt="..."></div>
+                                            <h3 class="position-relative pb-3 mb-4 h5"><a href="#"
                                                     class="text-white">Data-Driven Forecasting</a></h3>
                                             <p class="mb-0 text-white opacity7">Collaborated with key stakeholders to identify and use datasets for an accurate historical utilization rate on the telemedicine platform.</p>
                                         </div>
@@ -106,8 +106,8 @@
                                     <div class="card-style9">
                                         <div class="card-body">
                                             <span class="big-text">02</span>
-                                            <div class="icon-box"><img src="img/icons/icon-10.png" alt="..."></div>
-                                            <h3 class="position-relative pb-3 mb-4 h5"><a href="finger-print-access.php"
+                                            <div class="icon-box"><img src="/img/icons/icon-arima.png" alt="..."></div>
+                                            <h3 class="position-relative pb-3 mb-4 h5"><a href="#"
                                                     class="text-white">ARIMA Model Implementation</a></h3>
                                             <p class="mb-0 text-white opacity7">Worked closely with the Business Intelligence (BI) department to design and implement a tailored ARIMA predictive model.</p>
                                         </div>
@@ -117,8 +117,8 @@
                                     <div class="card-style9">
                                         <div class="card-body">
                                             <span class="big-text">03</span>
-                                            <div class="icon-box"><img src="img/icons/icon-react.png" alt="..."></div>
-                                            <h3 class="position-relative pb-3 mb-4 h5"><a href="finger-print-access.php"
+                                            <div class="icon-box"><img src="/img/icons/icon-worforce.png" alt="..."></div>
+                                            <h3 class="position-relative pb-3 mb-4 h5"><a href="#"
                                                     class="text-white">Optimized Workforce Planning</a></h3>
                                             <p class="mb-0 text-white opacity7">Empowered the workforce planning team to align GP shifts more effectively with the actual demand on the platform, ensuring timely access to medical services.</p>
                                         </div>

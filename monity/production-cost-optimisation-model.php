@@ -66,7 +66,7 @@
                                                 <p class="mb-0 text-white"><a class="text-white" href="tel:02035764931">0203 576 4931</a></p>
                                             </div>
                                         </div>
-                                        <div class="d-flex mb-4">
+                                        <div class="d-flex">
                                             <div class="flex-shrink-0">
                                                 <div class="contact-icons"><i class="ti-email"></i></div>
                                             </div>
@@ -95,8 +95,8 @@
                                     <div class="card-style9">
                                         <div class="card-body">
                                             <span class="big-text">01</span>
-                                            <div class="icon-box"><img src="img/icons/icon-py.png" alt="..."></div>
-                                            <h3 class="position-relative pb-3 mb-4 h5"><a href="finger-print-access.php"
+                                            <div class="icon-box"><img src="/img/icons/icon-cost.png" alt="..."></div>
+                                            <h3 class="position-relative pb-3 mb-4 h5"><a href="#"
                                                     class="text-white">Cost Analysis Integration</a></h3>
                                             <p class="mb-0 text-white opacity7">Utilize a holistic approach by incorporating ingredient costs, electricity, water expenses, and market prices of goods for a comprehensive cost analysis.</p>
                                         </div>
@@ -106,8 +106,8 @@
                                     <div class="card-style9">
                                         <div class="card-body">
                                             <span class="big-text">02</span>
-                                            <div class="icon-box"><img src="img/icons/icon-10.png" alt="..."></div>
-                                            <h3 class="position-relative pb-3 mb-4 h5"><a href="finger-print-access.php"
+                                            <div class="icon-box"><img src="/img/icons/icon-forecast.png" alt="..."></div>
+                                            <h3 class="position-relative pb-3 mb-4 h5"><a href="#"
                                                     class="text-white">Trend Analysis and Forecasting</a></h3>
                                             <p class="mb-0 text-white opacity7">Leverage historical data and market trends to analyze and forecast future manufacturing costs, providing insights for strategic decision-making.</p>
                                         </div>
@@ -117,8 +117,8 @@
                                     <div class="card-style9">
                                         <div class="card-body">
                                             <span class="big-text">03</span>
-                                            <div class="icon-box"><img src="img/icons/icon-react.png" alt="..."></div>
-                                            <h3 class="position-relative pb-3 mb-4 h5"><a href="finger-print-access.php"
+                                            <div class="icon-box"><img src="/img/icons/icon-new.png" alt="..."></div>
+                                            <h3 class="position-relative pb-3 mb-4 h5"><a href="#"
                                                     class="text-white">New Product Implementation Estimation</a></h3>
                                             <p class="mb-0 text-white opacity7">Extend the analysis to new product implementation, estimating associated costs and allowing for informed decision-making during the product development phase.</p>
                                         </div>

@@ -66,7 +66,7 @@
                                                 <p class="mb-0 text-white"><a class="text-white" href="tel:02035764931">0203 576 4931</a></p>
                                             </div>
                                         </div>
-                                        <div class="d-flex mb-4">
+                                        <div class="d-flex">
                                             <div class="flex-shrink-0">
                                                 <div class="contact-icons"><i class="ti-email"></i></div>
                                             </div>
@@ -95,8 +95,8 @@
                                     <div class="card-style9">
                                         <div class="card-body">
                                             <span class="big-text">01</span>
-                                            <div class="icon-box"><img src="img/icons/icon-py.png" alt="..."></div>
-                                            <h3 class="position-relative pb-3 mb-4 h5"><a href="finger-print-access.php"
+                                            <div class="icon-box"><img src="/img/icons/icon-strategy.png" alt="..."></div>
+                                            <h3 class="position-relative pb-3 mb-4 h5"><a href="#"
                                                     class="text-white">System Replacement Strategy</a></h3>
                                             <p class="mb-0 text-white opacity7">Initiated the project by strategizing the replacement of the outdated document management system, recognizing the necessity for a more organized and efficient solution.</p>
                                         </div>
@@ -106,8 +106,8 @@
                                     <div class="card-style9">
                                         <div class="card-body">
                                             <span class="big-text">02</span>
-                                            <div class="icon-box"><img src="img/icons/icon-10.png" alt="..."></div>
-                                            <h3 class="position-relative pb-3 mb-4 h5"><a href="finger-print-access.php"
+                                            <div class="icon-box"><img src="/img/icons/icon-classification.png" alt="..."></div>
+                                            <h3 class="position-relative pb-3 mb-4 h5"><a href="#"
                                                     class="text-white">Classification Algorithm Development</a></h3>
                                             <p class="mb-0 text-white opacity7">Developed a robust classification algorithm based on statistical analysis of keywords within document headers, ensuring the accurate categorization of over 5 million documents.</p>
                                         </div>
@@ -117,8 +117,8 @@
                                     <div class="card-style9">
                                         <div class="card-body">
                                             <span class="big-text">03</span>
-                                            <div class="icon-box"><img src="img/icons/icon-react.png" alt="..."></div>
-                                            <h3 class="position-relative pb-3 mb-4 h5"><a href="finger-print-access.php"
+                                            <div class="icon-box"><img src="/img/icons/icon-migration.png" alt="..."></div>
+                                            <h3 class="position-relative pb-3 mb-4 h5"><a href="#"
                                                     class="text-white">Migration Assistance</a></h3>
                                             <p class="mb-0 text-white opacity7">Facilitated the migration process by implementing the classification algorithm, allowing seamless categorization of documents into the required 32 types for the new document management system.</p>
                                         </div>

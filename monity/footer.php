@@ -111,8 +111,7 @@
                     <div class="row align-items-center">
                         <div class="col-12 text-center">
                             <p class="d-inline-block text-white mb-0">&copy; <span class="current-year"></span>
-                                Mutabalis Powered by <a href="index-03.php#!" class="text-secondary">Website Design
-                                    Templates</a></p>
+                                Mutabalis</p>
                         </div>
                     </div>
                 </div>
