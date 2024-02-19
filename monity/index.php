@@ -61,7 +61,7 @@
                             </div>
                             <h2 class="h1 mb-lg-1-9">What we do?</h2>
                             <p class="mb-1-9">We solve data problems and offer business insight solutions. From data cleansing to ETL processes, dashboards to machine learning algorithms our goal is to engineer the solutions that enable your business to leverage the power of its data to give you a competitive advantage.</p>
-                                <a href="about-us.php" class="butn-style03">Read More</a>
+                                <a href="index.php#about-us" class="butn-style03 mb-1-9">Read More</a>
                         </div>
                     </div>
                 </div>
