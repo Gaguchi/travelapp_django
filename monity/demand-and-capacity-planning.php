@@ -24,7 +24,7 @@
         <section>
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-4 order-2 order-lg-1">
+                    <div class="col-lg-4 order-2 order-lg-1 order-md-2">
                         <div class="service-details-sidebar pe-lg-1-6 pe-xl-1-9">
                             <aside class="widget widget-nav-menu wow fadeIn mb-1-6" data-wow-delay="100ms">
                                 <div class="widget-title">
@@ -79,7 +79,7 @@
                             </aside>
                         </div>
                     </div>
-                    <div class="col-lg-8 order-1 order-lg-2 mb-2-6 mb-lg-0">
+                    <div class="col-lg-8 order-1 order-lg-2 mb-2-6 mb-lg-0 order-md-1">
                         <div class="detail-services">
                             <div class="mb-1-6 wow fadeIn" data-wow-delay="200ms">
                                 <h3 class="h2 mb-3">Demand & Capacity Planning</h3>
@@ -95,8 +95,7 @@
                                         <div class="card-body">
                                             <span class="big-text">01</span>
                                             <div class="icon-box"><img src="/img/icons/icon-capacity.png" alt="..."></div>
-                                            <h3 class="position-relative pb-3 mb-4 h5"><a href="#"
-                                                    class="text-white">Demand and Capacity Modeling</a></h3>
+                                            <h3 class="position-relative pb-3 mb-4 h5 text-white">Demand and Capacity Modeling</h3>
                                             <p class="mb-0 text-white opacity7">Our team developed a sophisticated demand and capacity model tailored for London hospitals, ensuring precise reporting and forecasting capabilities.</p>
                                         </div>
                                     </div>
@@ -106,8 +105,7 @@
                                         <div class="card-body">
                                             <span class="big-text">02</span>
                                             <div class="icon-box"><img src="/img/icons/icon-forecast.png" alt="..."></div>
-                                            <h3 class="position-relative pb-3 mb-4 h5"><a href="#"
-                                                    class="text-white">Data Reporting and Forecasting</a></h3>
+                                            <h3 class="position-relative pb-3 mb-4 h5 text-white">Data Reporting and Forecasting</h3>
                                             <p class="mb-0 text-white opacity7">The model enabled detailed reporting and forecasting of bed and attendance requirements, offering insights by region, site, and clinical specialty.</p>
                                         </div>
                                     </div>
@@ -117,8 +115,7 @@
                                         <div class="card-body">
                                             <span class="big-text">03</span>
                                             <div class="icon-box"><img src="/img/icons/icon-08.png" alt="..."></div>
-                                            <h3 class="position-relative pb-3 mb-4 h5"><a href="#"
-                                                    class="text-white">Demographic Subset Analysis</a></h3>
+                                            <h3 class="position-relative pb-3 mb-4 h5 text-white">Demographic Subset Analysis</h3>
                                             <p class="mb-0 text-white opacity7">Covering over 2.5 million patients, our model provided a granular breakdown of demographic subsets, facilitating targeted planning for diverse patient needs.</p>
                                         </div>
                                     </div>

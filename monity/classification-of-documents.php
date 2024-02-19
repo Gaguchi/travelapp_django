@@ -25,7 +25,7 @@
         <section>
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-4 order-2 order-lg-1">
+                    <div class="col-lg-4 order-2 order-lg-1 order-md-2">
                         <div class="service-details-sidebar pe-lg-1-6 pe-xl-1-9">
                             <aside class="widget widget-nav-menu wow fadeIn mb-1-6" data-wow-delay="100ms">
                                 <div class="widget-title">
@@ -80,7 +80,7 @@
                             </aside>
                         </div>
                     </div>
-                    <div class="col-lg-8 order-1 order-lg-2 mb-2-6 mb-lg-0">
+                    <div class="col-lg-8 order-1 order-lg-2 mb-2-6 mb-lg-0 order-md-1">
                         <div class="detail-services">
                             <div class="mb-1-6 wow fadeIn" data-wow-delay="200ms">
                                 <h3 class="h2 mb-3">Classification of Documents</h3>
@@ -96,8 +96,7 @@
                                         <div class="card-body">
                                             <span class="big-text">01</span>
                                             <div class="icon-box"><img src="/img/icons/icon-strategy.png" alt="..."></div>
-                                            <h3 class="position-relative pb-3 mb-4 h5"><a href="#"
-                                                    class="text-white">System Replacement Strategy</a></h3>
+                                            <h3 class="position-relative pb-3 mb-4 h5 text-white">System Replacement Strategy</h3>
                                             <p class="mb-0 text-white opacity7">Initiated the project by strategizing the replacement of the outdated document management system, recognizing the necessity for a more organized and efficient solution.</p>
                                         </div>
                                     </div>
@@ -107,8 +106,7 @@
                                         <div class="card-body">
                                             <span class="big-text">02</span>
                                             <div class="icon-box"><img src="/img/icons/icon-classification.png" alt="..."></div>
-                                            <h3 class="position-relative pb-3 mb-4 h5"><a href="#"
-                                                    class="text-white">Classification Algorithm Development</a></h3>
+                                            <h3 class="position-relative pb-3 mb-4 h5 text-white">Classification Algorithm Development</h3>
                                             <p class="mb-0 text-white opacity7">Developed a robust classification algorithm based on statistical analysis of keywords within document headers, ensuring the accurate categorization of over 5 million documents.</p>
                                         </div>
                                     </div>
@@ -118,8 +116,7 @@
                                         <div class="card-body">
                                             <span class="big-text">03</span>
                                             <div class="icon-box"><img src="/img/icons/icon-migration.png" alt="..."></div>
-                                            <h3 class="position-relative pb-3 mb-4 h5"><a href="#"
-                                                    class="text-white">Migration Assistance</a></h3>
+                                            <h3 class="position-relative pb-3 mb-4 h5 text-white">Migration Assistance</h3>
                                             <p class="mb-0 text-white opacity7">Facilitated the migration process by implementing the classification algorithm, allowing seamless categorization of documents into the required 32 types for the new document management system.</p>
                                         </div>
                                     </div>

@@ -25,7 +25,7 @@
         <section>
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-4 order-2 order-lg-1">
+                    <div class="col-lg-4 order-2 order-lg-1 order-md-2">
                         <div class="service-details-sidebar pe-lg-1-6 pe-xl-1-9">
                             <aside class="widget widget-nav-menu wow fadeIn mb-1-6" data-wow-delay="100ms">
                                 <div class="widget-title">
@@ -80,7 +80,7 @@
                             </aside>
                         </div>
                     </div>
-                    <div class="col-lg-8 order-1 order-lg-2 mb-2-6 mb-lg-0">
+                    <div class="col-lg-8 order-1 order-lg-2 mb-2-6 mb-lg-0 order-md-1">
                         <div class="detail-services">
                             <div class="mb-1-6 wow fadeIn" data-wow-delay="200ms">
                                 <h3 class="h2 mb-3">Work Force Planning</h3>
@@ -96,8 +96,7 @@
                                         <div class="card-body">
                                             <span class="big-text">01</span>
                                             <div class="icon-box"><img src="/img/icons/icon-forecast.png" alt="..."></div>
-                                            <h3 class="position-relative pb-3 mb-4 h5"><a href="#"
-                                                    class="text-white">Data-Driven Forecasting</a></h3>
+                                            <h3 class="position-relative pb-3 mb-4 h5 text-white">Data-Driven Forecasting</h3>
                                             <p class="mb-0 text-white opacity7">Collaborated with key stakeholders to identify and use datasets for an accurate historical utilization rate on the telemedicine platform.</p>
                                         </div>
                                     </div>
@@ -107,8 +106,7 @@
                                         <div class="card-body">
                                             <span class="big-text">02</span>
                                             <div class="icon-box"><img src="/img/icons/icon-arima.png" alt="..."></div>
-                                            <h3 class="position-relative pb-3 mb-4 h5"><a href="#"
-                                                    class="text-white">ARIMA Model Implementation</a></h3>
+                                            <h3 class="position-relative pb-3 mb-4 h5 text-white">ARIMA Model Implementation</h3>
                                             <p class="mb-0 text-white opacity7">Worked closely with the Business Intelligence (BI) department to design and implement a tailored ARIMA predictive model.</p>
                                         </div>
                                     </div>
@@ -118,8 +116,7 @@
                                         <div class="card-body">
                                             <span class="big-text">03</span>
                                             <div class="icon-box"><img src="/img/icons/icon-worforce.png" alt="..."></div>
-                                            <h3 class="position-relative pb-3 mb-4 h5"><a href="#"
-                                                    class="text-white">Optimized Workforce Planning</a></h3>
+                                            <h3 class="position-relative pb-3 mb-4 h5 text-white">Optimized Workforce Planning</h3>
                                             <p class="mb-0 text-white opacity7">Empowered the workforce planning team to align GP shifts more effectively with the actual demand on the platform, ensuring timely access to medical services.</p>
                                         </div>
                                     </div>

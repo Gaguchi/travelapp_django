@@ -61,7 +61,7 @@
                             </div>
                             <h2 class="h1 mb-lg-1-9">What we do?</h2>
                             <p class="mb-1-9">We solve data problems and offer business insight solutions. From data cleansing to ETL processes, dashboards to machine learning algorithms our goal is to engineer the solutions that enable your business to leverage the power of its data to give you a competitive advantage.</p>
-                                <a href="index.php#about-us" class="butn-style03 mb-1-9">Read More</a>
+                                <a href="index.php#services" class="butn-style03 mb-1-9">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -82,7 +82,7 @@
                             <div class="card-body">
                                 <span class="big-text">01</span>
                                 <div class="icon-box"><img src="img/icons/icon-10.png" alt="..."></div>
-                                <h3 class="position-relative pb-3 mb-4 h5"><a href="finger-print-access.php"
+                                <h3 class="position-relative pb-3 mb-4 h5"><a href="#"
                                         class="text-white">Data Analytics</a></h3>
                                 <p class="mb-0 text-white opacity7">Development of dashboards, reporting tools and
                                     business intelligence.</p>
@@ -95,9 +95,9 @@
                             <div class="card-body">
                                 <span class="big-text">02</span>
                                 <div class="icon-box"><img src="img/icons/icon-12.png" alt="..."></div>
-                                <h3 class="position-relative pb-3 mb-4 h5"><a href="cctv-installation.php"
+                                <h3 class="position-relative pb-3 mb-4 h5"><a href="#"
                                         class="text-white">Statistical modeling</a></h3>
-                                <p class="mb-0 text-white opacity7">building statistical models and time series
+                                <p class="mb-0 text-white opacity7">Building statistical models and time series
                                     forecasts to predict future trends.</p>
                                 <button class="expand-button butn-style03 white sm mt-3">Expand</button>
                             </div>
@@ -108,9 +108,9 @@
                             <div class="card-body">
                                 <span class="big-text">03</span>
                                 <div class="icon-box"><img src="img/icons/icon-11.png" alt="..."></div>
-                                <h3 class="position-relative pb-3 mb-4 h5"><a href="circuit-cameras.php"
+                                <h3 class="position-relative pb-3 mb-4 h5"><a href="#"
                                         class="text-white">Data warehousing solutions</a></h3>
-                                <p class="mb-0 text-white opacity7">offering data engineering and warehouse solutions.
+                                <p class="mb-0 text-white opacity7">Offering data engineering and warehouse solutions.
                                 </p>
                                 <button class="expand-button butn-style03 white sm mt-3">Expand</button>
                             </div>
@@ -121,9 +121,9 @@
                             <div class="card-body">
                                 <span class="big-text">04</span>
                                 <div class="icon-box"><img src="img/icons/icon-13.png" alt="..."></div>
-                                <h3 class="position-relative pb-3 mb-4 h5"><a href="wifi-camera-security.php"
+                                <h3 class="position-relative pb-3 mb-4 h5"><a href="#"
                                         class="text-white">Machine learning</a></h3>
-                                <p class="mb-0 text-white opacity7">developing machine learning models to predict future
+                                <p class="mb-0 text-white opacity7">Developing machine learning models to predict future
                                     customer behavior.</p>
                                 <button class="expand-button butn-style03 white sm mt-3">Expand</button>
                             </div>
@@ -134,10 +134,9 @@
                             <div class="card-body">
                                 <span class="big-text">05</span>
                                 <div class="icon-box"><img src="img/icons/icon-08.png" alt="..."></div>
-                                <h3 class="position-relative pb-3 mb-4 h5"><a href="video-analytics-system.php"
+                                <h3 class="position-relative pb-3 mb-4 h5"><a href="#"
                                         class="text-white">Customer segmentation tools</a></h3>
-                                <p class="mb-0 text-white opacity7">using clustering algorithms to group customers based
-                                    on similarities for targeted marketing campaigns.</p>
+                                <p class="mb-0 text-white opacity7">Using clustering algorithms to group customers.</p>
                                 <button class="expand-button butn-style03 white sm mt-3">Expand</button>
                             </div>
                         </div>
@@ -147,9 +146,9 @@
                             <div class="card-body">
                                 <span class="big-text">06</span>
                                 <div class="icon-box"><img src="img/icons/icon-09.png" alt="..."></div>
-                                <h3 class="position-relative pb-3 mb-4 h5"><a href="home-automation.php"
+                                <h3 class="position-relative pb-3 mb-4 h5"><a href="#"
                                         class="text-white">Web design and SEO</a></h3>
-                                <p class="mb-0 text-white opacity7">analysis of website traffic for greater customer
+                                <p class="mb-0 text-white opacity7">Analysis of website traffic for greater customer
                                     insights.</p>
                                 <button class="expand-button butn-style03 white sm mt-3">Expand</button>
                             </div>
