@@ -8474,3 +8474,31 @@ footer .phone a:focus {
         left: -100% !important;
     }
 }
+
+
+@media screen and (max-width: 768px) {
+    .bg-about{
+        background-image: url(../img/content/bg-shape2_03.png),url(../img/content/bg-shape1_03.png);
+        background-position: right bottom, left top;
+        background-repeat: no-repeat;
+    }
+    .first_svg{
+        display: none;
+    }
+}
+
+.butn-style03.white.sm.mt-3 {
+    border: none;
+    background-color: #fff;
+    color: #343c56;
+}
+.butn-style03.white.sm.mt-3:hover {
+    background-color: #283049;
+    color: #fff;
+}
+.butn-style03.white.sm.mt-3:hover:before {
+    top: auto;
+    bottom: 0;
+    background-color: #283049;
+    height: 100%;
+}

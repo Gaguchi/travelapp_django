@@ -39,7 +39,7 @@
                     <div class="col-md-6 col-lg-5 mt-5">
                         <h3 class="text-white h5 mb-1-9">About Company</h3>
                         <h4 class="text-white mb-1-9 fw-light w-75 display-27 lh-base opacity8">We have 20+ years
-                            experience. Helping create data driven solutions.</h4>
+                            experience creating data driven solutions.</h4>
                         <ul class="social-icon-style1">
                             <li>
                                 <a href="#"><i class="fab fa-twitter"></i></a>
