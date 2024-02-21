@@ -23,9 +23,9 @@
         <!-- Work Force Planning
         ================================================== -->
         <section>
-            <div class="container">
+            <div class="container project-info">
                 <div class="row">
-                    <div class="col-lg-4 order-lg-1 order-md-2">
+                    <div class="col-xl-4 col-lg-5 order-2 order-lg-1 order-md-2">
                         <div class="service-details-sidebar pe-lg-1-6 pe-xl-1-9">
                             <aside class="widget widget-nav-menu wow fadeIn mb-1-6" data-wow-delay="100ms">
                                 <div class="widget-title">
@@ -80,14 +80,14 @@
                             </aside>
                         </div>
                     </div>
-                    <div class="col-lg-8 order-lg-2 mb-2-6 mb-lg-0 order-md-1">
+                    <div class="col-xl-8 col-lg-7 order-1 order-lg-2 mb-2-6 mb-lg-0 order-md-1">
                         <div class="detail-services">
                             <div class="mb-1-6 wow fadeIn" data-wow-delay="200ms">
                                 <h3 class="h2 mb-3">Work Force Planning</h3>
                                 <p class="w-95">
                                     Our team provides a crucial service by implementing an ARIMA model for workforce planning, catering to the specific needs of a UK telemedicine company. The company aimed to accurately forecast the number of General Practitioners (GPs) required on its mobile application platform, ensuring patients could be seen within 2 hours of requesting an appointment. 
                                 </p>
-                                <p class="mb-0 w-95">We collaborated with key stakeholders to identify relevant datasets, and in partnership with the Business Intelligence (BI) department, we implemented an ARIMA predictive model. This model empowered the workforce planning team to schedule GP shifts more effectively, aligning with the actual demand on the platform.</p>
+                                <p class="mb-0 w-95">We collaborated with key stakeholders to identify relevant datasets, and in partnership with the Business Intelligence (BI) department, we implemented an ARIMA predictive model. This model empowered the workforce planning team to schedule GP shifts more effectively, aligning with the actual future demand on the platform.</p>
                             </div>
                             
                             <div class="row mb-1-9 mt-n1-9">
@@ -96,8 +96,8 @@
                                         <div class="card-body">
                                             <span class="big-text">01</span>
                                             <div class="icon-box"><img src="/img/icons/icon-forecast.png" alt="..."></div>
-                                            <h3 class="position-relative pb-3 mb-4 h5 text-white">Data-Driven Forecasting</h3>
-                                            <p class="mb-0 text-white opacity7">Collaborated with key stakeholders to identify and use datasets for an accurate historical utilization rate on the telemedicine platform.</p>
+                                            <h3 class="position-relative pb-3 mb-4 project-card-header text-white">Data-Driven Forecasting</h3>
+                                            <p class="mb-0 text-white opacity7 project-card-text">Collaborated with key stakeholders to identify and use datasets for an accurate historical utilization rate on the telemedicine platform.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -106,8 +106,8 @@
                                         <div class="card-body">
                                             <span class="big-text">02</span>
                                             <div class="icon-box"><img src="/img/icons/icon-arima.png" alt="..."></div>
-                                            <h3 class="position-relative pb-3 mb-4 h5 text-white">ARIMA Model Implementation</h3>
-                                            <p class="mb-0 text-white opacity7">Worked closely with the Business Intelligence (BI) department to design and implement a tailored ARIMA predictive model.</p>
+                                            <h3 class="position-relative pb-3 mb-4 project-card-header text-white">ARIMA Model Creation</h3>
+                                            <p class="mb-0 text-white opacity7 project-card-text">Worked closely with the Business Intelligence (BI) department to design and implement a tailored ARIMA predictive model.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -116,8 +116,8 @@
                                         <div class="card-body">
                                             <span class="big-text">03</span>
                                             <div class="icon-box"><img src="/img/icons/icon-worforce.png" alt="..."></div>
-                                            <h3 class="position-relative pb-3 mb-4 h5 text-white">Optimized Workforce Planning</h3>
-                                            <p class="mb-0 text-white opacity7">Empowered the workforce planning team to align GP shifts more effectively with the actual demand on the platform, ensuring timely access to medical services.</p>
+                                            <h3 class="position-relative pb-3 mb-4 project-card-header text-white">Optimized Workforce Planning</h3>
+                                            <p class="mb-0 text-white opacity7 project-card-text">Empowered the workforce planning team to align GP shifts more effectively with the actual demand on the platform, ensuring timely access to medical services.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -139,7 +139,7 @@
                                             </li>
                                             <li class="mb-1-6">
                                                 <span class="text-primary text-uppercase font-weight-600 small">Step 2</span>
-                                                <h3 class="h5 text-uppercase">Model Refinement and Implementation</h3>
+                                                <h3 class="h5 text-uppercase">Model Refinement and Creation</h3>
                                                 <p class="mb-0">Work with BI departments to continuously refine and implement predictive models, tailoring them to the specific demands of workforce planning in the healthcare sector.</p>
                                             </li>
                                             <li class="mb-1-6">

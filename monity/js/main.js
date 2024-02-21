@@ -270,3 +270,4 @@ cards.forEach(card => {
 
   card.addEventListener('click', cardClickListener);
 });
+

@@ -23,9 +23,9 @@
         <!-- Extract, Transform and Load Process
         ================================================== -->
         <section>
-            <div class="container">
+            <div class="container project-info">
                 <div class="row">
-                    <div class="col-lg-4 order-2 order-lg-1 order-md-2">
+                    <div class="col-xl-4 col-lg-5 order-2 order-lg-1 order-md-2">
                         <div class="service-details-sidebar pe-lg-1-6 pe-xl-1-9">
                             <aside class="widget widget-nav-menu wow fadeIn mb-1-6" data-wow-delay="100ms">
                                 <div class="widget-title">
@@ -80,7 +80,7 @@
                             </aside>
                         </div>
                     </div>
-                    <div class="col-lg-8 order-1 order-lg-2 mb-2-6 mb-lg-0 order-md-1">
+                    <div class="col-xl-8 col-lg-7 order-1 order-lg-2 mb-2-6 mb-lg-0 order-md-1">
                         <div class="detail-services">
                             <div class="mb-1-6 wow fadeIn" data-wow-delay="200ms">
                                 <h3 class="h2 mb-3">Extract, Transform and Load Process</h3>
@@ -96,8 +96,8 @@
                                         <div class="card-body">
                                             <span class="big-text">01</span>
                                             <div class="icon-box"><img src="/img/icons/icon-etl.png" alt="..."></div>
-                                            <h3 class="position-relative pb-3 mb-4 h5 text-white">Data Extraction and Transformation</h3>
-                                            <p class="mb-0 text-white opacity7">Executed the extraction, cleaning, and transformation of semi-structured data for the UK automobile manufacturer, ensuring data integrity and relevance.</p>
+                                            <h3 class="position-relative pb-3 mb-4 project-card-header text-white">Data Extract and Transform</h3>
+                                            <p class="mb-0 text-white opacity7 project-card-text">Executed the extraction, cleaning, and transformation of semi-structured data for the UK automobile manufacturer, ensuring data integrity and relevance.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -106,8 +106,8 @@
                                         <div class="card-body">
                                             <span class="big-text">02</span>
                                             <div class="icon-box"><img src="/img/icons/icon-bigquery.png" alt="..."></div>
-                                            <h3 class="position-relative pb-3 mb-4 h5 text-white">Loading into Google BigQuery</h3>
-                                            <p class="mb-0 text-white opacity7">Facilitated the loading of processed data into Google BigQuery, providing a scalable platform for comprehensive analysis.</p>
+                                            <h3 class="position-relative pb-3 mb-4 project-card-header text-white">Loading into Google BigQuery</h3>
+                                            <p class="mb-0 text-white opacity7 project-card-text">Facilitated the loading of processed data into Google BigQuery, providing a scalable platform for comprehensive analysis.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -116,8 +116,8 @@
                                         <div class="card-body">
                                             <span class="big-text">03</span>
                                             <div class="icon-box"><img src="/img/icons/icon-team.png" alt="..."></div>
-                                            <h3 class="position-relative pb-3 mb-4 h5 text-white">Cross-Team Collaboration</h3>
-                                            <p class="mb-0 text-white opacity7">Worked collaboratively with disparate teams across different countries, time zones, and jurisdictions to ensure the success of the data extraction and analysis project.</p>
+                                            <h3 class="position-relative pb-3 mb-4 project-card-header text-white">Cross-Team Collaboration</h3>
+                                            <p class="mb-0 text-white opacity7 project-card-text">Worked collaboratively with disparate teams across different countries, time zones, and jurisdictions to ensure the success of the data extraction and analysis project.</p>
                                         </div>
                                     </div>
                                 </div>

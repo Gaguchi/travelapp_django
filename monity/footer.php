@@ -42,13 +42,10 @@
                             experience. Helping create data driven solutions.</h4>
                         <ul class="social-icon-style1">
                             <li>
-                                <a href="index-03.php#!"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
                             </li>
                             <li>
-                                <a href="index-03.php#!"><i class="fab fa-twitter"></i></a>
-                            </li>
-                            <li>
-                                <a href="index-03.php#!"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="https://www.linkedin.com/company/mutabalis/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                             </li>
                         </ul>
                     </div>

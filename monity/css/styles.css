@@ -8434,3 +8434,37 @@ footer .phone a:focus {
     align-items: center;
     justify-content: center;
 }
+
+@media (min-width: 992px){
+    .project-info{
+        max-width: 1300px;
+    }
+}
+
+.card-style9 .card-body h5:after {
+    position: absolute;
+    content: '';
+    width: 50px;
+    height: 1px;
+    left: 0px;
+    background-image: linear-gradient(to right, #fcaf17, transparent 130%);
+    bottom: 0px;
+    background-color: transparent;
+}
+
+.project-card-header{
+    font-size: 1rem;
+}
+
+.project-card-text{
+    font-size: 14px;
+    line-height: normal;
+}
+
+.list-style4 li a {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+}

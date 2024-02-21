@@ -23,9 +23,9 @@
         <!-- Production Cost Optimisation
         ================================================== -->
         <section>
-            <div class="container">
+            <div class="container project-info">
                 <div class="row">
-                    <div class="col-lg-4 order-2 order-lg-1 order-md-2">
+                    <div class="col-xl-4 col-lg-5 order-2 order-lg-1 order-md-2">
                         <div class="service-details-sidebar pe-lg-1-6 pe-xl-1-9">
                             <aside class="widget widget-nav-menu wow fadeIn mb-1-6" data-wow-delay="100ms">
                                 <div class="widget-title">
@@ -80,7 +80,7 @@
                             </aside>
                         </div>
                     </div>
-                    <div class="col-lg-8 order-1 order-lg-2 mb-2-6 mb-lg-0 order-md-1">
+                    <div class="col-xl-8 col-lg-7 order-1 order-lg-2 mb-2-6 mb-lg-0 order-md-1">
                         <div class="detail-services">
                             <div class="mb-1-6 wow fadeIn" data-wow-delay="200ms">
                                 <h3 class="h2 mb-3">Production Cost Optimisation</h3>
@@ -96,8 +96,8 @@
                                         <div class="card-body">
                                             <span class="big-text">01</span>
                                             <div class="icon-box"><img src="/img/icons/icon-cost.png" alt="..."></div>
-                                            <h3 class="position-relative pb-3 mb-4 h5 text-white">Cost Analysis Integration</h3>
-                                            <p class="mb-0 text-white opacity7">Utilize a holistic approach by incorporating ingredient costs, electricity, water expenses, and market prices of goods for a comprehensive cost analysis.</p>
+                                            <h3 class="position-relative pb-3 mb-4 project-card-header text-white">Cost Analysis Integration</h3>
+                                            <p class="mb-0 text-white opacity7 project-card-text">Utilize a holistic approach by incorporating ingredient costs, electricity, water expenses, and market prices of goods for a comprehensive cost analysis.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -106,8 +106,8 @@
                                         <div class="card-body">
                                             <span class="big-text">02</span>
                                             <div class="icon-box"><img src="/img/icons/icon-forecast.png" alt="..."></div>
-                                            <h3 class="position-relative pb-3 mb-4 h5 text-white">Trend Analysis and Forecasting</h3>
-                                            <p class="mb-0 text-white opacity7">Leverage historical data and market trends to analyze and forecast future manufacturing costs, providing insights for strategic decision-making.</p>
+                                            <h3 class="position-relative pb-3 mb-4 project-card-header text-white">Trend Analysis and Forecasting</h3>
+                                            <p class="mb-0 text-white opacity7 project-card-text">Leverage historical data and market trends to analyze and forecast future manufacturing costs, providing insights for strategic decision-making.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -116,8 +116,8 @@
                                         <div class="card-body">
                                             <span class="big-text">03</span>
                                             <div class="icon-box"><img src="/img/icons/icon-new.png" alt="..."></div>
-                                            <h3 class="position-relative pb-3 mb-4 h5 text-white">New Product Implementation Estimation</h3>
-                                            <p class="mb-0 text-white opacity7">Extend the analysis to new product implementation, estimating associated costs and allowing for informed decision-making during the product development phase.</p>
+                                            <h3 class="position-relative pb-3 mb-4 project-card-header text-white">New Product Cost Estimation</h3>
+                                            <p class="mb-0 text-white opacity7 project-card-text">Extend the analysis to new product implementation, estimating associated costs and allowing for informed decision-making during the product development phase.</p>
                                         </div>
                                     </div>
                                 </div>
