@@ -8468,3 +8468,9 @@ footer .phone a:focus {
     -ms-hyphens: auto;
     hyphens: auto;
 }
+
+@media screen and (max-width: 425px) {
+    .herovideo{
+        left: -100% !important;
+    }
+}

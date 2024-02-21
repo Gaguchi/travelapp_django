@@ -3,7 +3,7 @@
         ================================================== -->
         <section class="p-0 top-position1 full-screen" id="banner">
             <div class="video-background">
-                <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+                <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" class="herovideo">
                     <source src="video/Numerator_Homepage_Animation_DotsTubes.mp4" type="video/mp4">
                 </video>
             </div>
